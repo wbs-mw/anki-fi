@@ -1,3 +1,74 @@
 OSI ist die Abkürzung des Begriffs?; Open System Interconnection
 Was ist OSI?; OSI ist ein Referenzmodell für herstellerunabhängige Kommunikationssysteme.
+Was ist die Bitübertragungsschicht des OSI-Modells? (engl.: Physical layer); Die Bitübertragung ist zuständig für den physikalischen Transport der digitalen Informationen.
+Was ist die Datensicherungschicht des OSI-Modells? (engl.: Link layer); Die Datensicherung ist zuständig für den unverfälschten Datentransport über einen einzelnen Übermittlungsabschnitt.
+Was ist die Vermittlungsschict des OSI-Modells? (engl.: Network layer); Die Vermittlung ist zuständig für die Überbrückung geografischer Entfernungen zwischen den Endsystemen durch Einbeziehung von Vermittlungssystemen.
+Was ist die Transportschicht des OSI-Modells? (engl.: Transport layer); Der Transport ist zuständig für die Erweiterung von Verbindungen zwischen Endsystemen zu Teilnehmerverbindungen.
+Wast ist die Sitzungsschicht des OSI-Modells? (engl.: Session layer); Die Sitzung ist zuständig für den geordneten Ablauf des Dialogs zwischen den Endsystemen.
+Was ist die Darstellungsschicht des OSI-Modells? (engl.: Session layer); Die Darstellung ist zuständig für den gemeinsamen Zeichensatz und die gemeinsame Syntax.
+Was ist die Anwendungsschicht des OSI-Modells? (engl.: Application layer); Die Anwendung ist zuständig für die Steuerung der untergeordneten Schichten.
 In wievielen Schichten ist das OSI-Referenzmodell unterteilt?; Das OSI-Referenzmodell ist in sieben Schichten unterteilt.
+Welche Schichten des OSI-Referenzmodells sind transportorientiert?; Die Schichten 1 bis 4 des OSI-Referenzmodells sind transportorientiert.
+Welche Schichten des OSI-Referenzmodells sind anwendungsorientiert?; Die Schichten 5 bis 7 des OSI-Referenzmodells sind anwendungsorientiert.
+Was ist nicht im OSI-Referenzmodell festgelegt?; Im OSI-Referenzmodell ist das Übertragungsmedium nicht festgelegt.
+Wie heißt die erste Schicht des OSI-Referenzmodells?; Die erste Schicht des OSI-Referenzmodells heißt Bitübertragung (engl.: Physical).
+Wie heißt die zweite Schicht des OSI-Referenzmodells?; Die zweite Schicht des OSI-Referenzmodells heißt Sicherung (engl.: Link).
+Wie heißt die dritte Schicht des OSI-Referenzmodells?; Die dritte Schicht des OSI-Referenzmodells heißt Vermittlung (engl.: Network).
+Wie heißt die vierte Schicht des OSI-Referenzmodells?; Die vierte Schicht des OSI-Referenzmodells heißt Transport (engl.: Transport).
+Wie heißt die fünfte Schicht des OSI-Referenzmodells?; Die fünfte Schicht des OSI-Referenzmodells heißt Sitzung (engl.: Session).
+Wie heißt die sechste Schicht des OSI-Referenzmodells?; Die sechste Schicht des OSI-Referenzmodells heißt Darstellung (engl.: Presentation).
+Wie heißt die siebte Schicht des OSI-Referenzmodells?; Die siebte Schicht des OSI-Referenzmodells heißt Anwendung (engl.: Application).
+In welche zwei Unterschichten wird die Sicherung (engl.: Link) des OSI-Referenzmodells unterteilt?; Die Sicherung (engl.: Link) des OSI-Referenzmodells wird in LLC und MAC unterteilt.
+CAN ist die Abkürzung des Begriffs?; Controller Area Network
+PAN ist die Abkürzung des Begriffs?; Personal Area Network
+LAN ist die Abkürzung des Begriffs?; Local Area Network
+MAN ist die Abkürzung des Begriffs?; Metropolitan Area Network
+WAN ist die Abkürzung des Begriffs?; Wide Area Network
+Was ist CAN?; CAN ist ein Netzwerk mit einer Ausdehnung von ca. 1 Meter.
+Was ist PAN?; PAN ist ein Netzwerk im Heimbereich.
+Was ist LAN?; LAN ist ein Netzwerk im Office- und Firmenbereich.
+Was ist MAN?; MAN ist ein Netzwerk mit einer Ausdehnung von bis zu 100 Kilometer.
+Was ist WAN?; WAN ist ein Netzwerk welche ganze Länder überspannen und weltweite Übertragungen ermöglichen.
+Was ist Topologie?; Topologie ist der Aufbau von Verbindungen in einem Netzwerk.
+Was ist die physische Betrachtungsweise?; Die physische Betrachtungsweise ist der tatsächliche Aufbau des Netzwerks.
+Was ist die logische Betrachtungsweise?; Die logische Betrachtungsweise ist die übergeordnete Vorstellung, wie das Netzwerk aufgebaut ist und wie die Daten im Netzwerk übertragen werden.
+Was ist die Linientopologie?; Die Linie ist eine Topologie bei der es einen Anfangs- und einen Endteilnehmer gibt und alle Teilnehmer in Reihe geschaltet sind.
+Was ist die Bustopologie?; Der Bus ist eine Topologie bei der alle Teilnehmer über die gleiche Leitung miteinander verbunden sind.
+Was ist die Baumtopologie?; Der Baum ist eine Topologie bei der ein Teilnehmer der zentrale Knoten ist von dem sich andere Teilnehmer verzweigen.
+Was ist die Sterntopologie?; Der Stern ist eine Topologie bei der alle Teilnehmer über einen zentralen Teilnehmer miteinander verbunden sind.
+Was ist die Maschentopologie?; Die Masche ist eine Topologie bei der jeder Teilnehmer mit jedem anderem Teilnehmer verbunden ist.
+Was ist die Ringtopologie?; Der Ring ist eine Topologie bei der alle Teilnehmer in Ringform verbunden sind.
+In welche beiden Betrachtungsweisen werden Topologien unterschieden?; Topologien werden unterschieden in physische und logische Betrachtungsweisen.
+CSMA ist die Abkürzung des Begriffs?; Carrier Sense Multiple Access
+CSMA/CD ist die Abkürzung des Begriffs?; Carrier Sense Multiple Access (with) Collision Detection
+CSMA/CA ist die Abkürzung des Begriffs?; Carrier Sense Multiple Access (with) Collision Avoidance
+RTS ist die Abkürzung des Begriffs?; Request-to-send
+CTS ist die Abkürzung des Begriffs?; Clear-to-send
+AP ist die Abkürzung des Begriffs?; Access Point
+Was ist CSMA?; CSMA ist ein Verfahren bei dem der Sendezugriff dezentral von den einzelnen Teilnehmern selbst eingeleitet wird.
+Was ist CSMA/CD?; CSMA/CD ist ein Verfahren bei dem es, wenn es zu einer Kollision beim Senden kommt, ein Jam-Signal gesendet wird, welche das Auftreten einer Kollision anzeigt.
+Was ist eine Kollision im Netz?; Die Kollision ist die Überlagerung der Signale beim gleichzeitigen Senden durch ein geteiltes Übertragungsmedium.
+Was ist eine Kollisionsdomäne?; Die Kollisionsdomäne ist der Bereich in dem Kollisionen empfangen werden können.
+Was ist CSMA/CA?; CSMA/CA  ist ein Protokoll zur Vermeidung von Kollisionen in drahtlosen Netzwerken. Das Protokoll wird oft in WLANs verwendet, um sicherzustellen, dass mehrere Geräte das drahtlose Medium nicht gleichzeitig nutzen und so Kollisionen verursachen.
+Was ist das Hidden-Station-Problem?; Das Hidden-Station-Problem ist ein Problem in drahtlosen Netzwerken, das auftritt, wenn ein Sender (Station) nicht in der Lage ist, die Übertragungen anderer Stationen zu erkennen, die zu einem Empfänger (Access Point oder eine andere Station) senden können.
+Was ist Multiplex?; Multiplexing bezieht sich auf eine Technik, bei der mehrere Signale über eine einzige Verbindung oder Leitung übertragen werden. Das bedeutet, dass mehrere Datenströme oder Kommunikationskanäle simultan über die gleiche Verbindung übertragen werden können.
+Was wird im CSMA/CD Verfahren gesendet, wenn es zu einer Kollision kommt?; Wenn es im CSMA/CD Verfahren zu einer Kollision kommt, wird ein Jam-Signal gesendet.
+Was machen alle Teilnehmer beim CSMA/CD Verfahren, sollten ein Jam-Signal gesendet werden?; Alle Teilnehmer beim CSMA/CD Verfahren warten eine zufällige Zeitdauer ab, bevor ein erneuter Sendeversuch gestartet wird.
+Was sind die fünf Schritte des CSMA/CA Verfahrens?; 1. Das Medium wird abgehört.\n2. Ist das Medium frei, wird ein Request-to-Send auf diesem Kanal gesendet.\n3. Der Access Point sendet ein Clear-to-Send.\n4. Die WLAN-Station sendet die Daten.\n5. Der Access Point bestätigt den Empfang durch ein Acknowledgement.
+Was ist ein Repeater?; Ein Repeater ist eine Netzwerkkomponente, welche verschiedene Netze mit vollkommen gleichartigen Zugriffsweisen und Protokollen verbindet.
+Was ist ein Hub?; Ein Hub ist ein Gerät in einem Netzwerk, das dazu dient, mehrere Netzwerkgeräte wie Computer, Drucker, Router und Switches zu verbinden. Ein Hub leitet die Datenpakete von einem Gerät an alle anderen angeschlossenen Geräte weiter. Es ist ein passives Gerät, das lediglich den Datenverkehr zwischen den angeschlossenen Geräten koordiniert und verstärkt, ohne die Daten selbst zu analysieren oder zu ändern.
+Was ist eine Bridge?; Eine Bridge ist eine Netzwerkkomponente, welche Netze auf den Teilschichten MAC oder LLC der OSI-Schicht 2 verbindet.
+Was ist ein Router?; Ein Router ist ein Gerät in einem Netzwerk, das Datenpakete zwischen verschiedenen Computernetzwerken auf der 3. OSI-Schicht weiterleitet und verbindet. Ein Router ist normalerweise in der Lage, Datenpakete auf der Grundlage von Informationen wie den IP-Adressen der Sender und Empfänger zu verarbeiten und weiterzuleiten.
+Was ist ein Gateway?; Ein Gateway ist ein Gerät oder eine Software in einem Netzwerk, das als Vermittler zwischen verschiedenen Netzwerken oder Netzwerkprotokollen fungiert. Es ermöglicht die Kommunikation zwischen Netzwerken mit unterschiedlichen Strukturen oder Technologien, indem es Datenpakete übersetzt und weiterleitet.
+Was ist ein Switch?; Ein Switch ist ein Gerät in einem Netzwerk, das verwendet wird, um Datenpakete zwischen verschiedenen Geräten innerhalb eines lokalen Netzwerks auf der 2. OSI-Shicht zu vermitteln. Im Gegensatz zu einem Hub, der Datenpakete an alle angeschlossenen Geräte sendet, sendet ein Switch Datenpakete nur an das Zielgerät, für das sie bestimmt sind.
+LLC ist eine Abkürzung des Begriffs?; Logical Link Control
+MAC ist eine Abkürzung des Begriffs?; Medium Access Control
+IP ist eine Abkürzung des Begriffs?; Internet Protocol
+TCP ist eine Abkürzung des Begriffs?; Transport Control Protocol
+UDP ist eine Abkürzung des Begriffs?; User Datagram Protocol
+Was ist LLC?; LLC ist für die Übertragung und den Zugriff auf die logische Schnittstelle zuständig.
+Was ist MAC?; MAC umfasst die Steuerung des Zugriffs auf das Übertragungsmedium und ist somit für den fehlerfreien Transport der Daten verantwortlich.
+Was ist IP?; IP steht für Internet Protocol und ist ein grundlegendes Netzwerkprotokoll, das für die Übertragung von Datenpaketen in Computernetzwerken wie dem Internet verwendet wird. Das IP-Protokoll ist verantwortlich für das Routing von Datenpaketen von einer Quelle zu einem Ziel im Netzwerk. Jedes Gerät, das mit einem Netzwerk verbunden ist, hat eine eindeutige IP-Adresse, die verwendet wird, um Daten an das Zielgerät zu senden. IP-Adressen bestehen aus einer Netzwerk-ID und einer Host-ID und werden in IPv4- oder IPv6-Formaten verwendet.
+Was ist TCP?; TCP steht für Transmission Control Protocol und ist ein Kernprotokoll der Internet Protocol Suite. Es ist ein zuverlässiges, verbindungsorientiertes Protokoll, das verwendet wird, um Daten zwischen Anwendungen auf verschiedenen Computern im Netzwerk zu übertragen.
+Was ist UDP?; UDP steht für User Datagram Protocol und ist ein Kernprotokoll der Internet Protocol Suite. Im Gegensatz zu TCP ist UDP ein unzuverlässiges, verbindungsloses Protokoll, das keine End-to-End-Verbindung zwischen den beteiligten Geräten herstellt.
+MAC ist ein Protokoll welcher Schicht des OSI-Referenzmodells?; MAC ist ein Protokoll der Sicherung (engl.: Link) des OSI-Referenzmodells.
