@@ -1,0 +1,91 @@
+Welche Nachteile können entstehen, wenn mehr als 20 Virtuelle Maschinen auf einem Host ausgeführt werden?;Keine wenn der Host genügend Perfomance hat, denn so ist er sehr gut ausgelastet.
+Welche Virtualisierungarten gibt es?; "- Server-Virtualisierung
+- Netzwerkvirtualisierung
+- Storagevirtualisierung"
+Um die Kosteneinsparung nachzuweisen erhalten Sie die Aufgabe, nach folgenden Angaben die Gesamtkosten 
+(ohne Berücksichtigung der Klimaleistung und sonstiger PC-und Netzwerkkomponenten) 
+für Anschaffung und Betrieb über die Dauer von 5 Jahren zu berechnen. 
+Berechnen Sie hier die Kosten für die Variante mit physischen Servern.
+"Wie sieht die Berechnung für die Gesamtkosten (Anschaffung und Betrieb über x Jahre) aus wenn folgendes gegeben ist: 
+- Anzahl Server
+- Anschaffungspreis pro Server
+- Leistung pro Server
+- Preis pro kWh
+- Betriebsdauer"; "Anschaffungskosten = Anzahl Server * Anschaffungspreis pro Server
+Laufende Betriebskosten = Leistung pro Server * Betriebsdauer * Preis pro kWh
+Gesamtkosten = Anschaffungskosten + Laufende Betriebskosten * x Jahre"
+Unter welchen Bedingungen ist eine Thin Client-Lösung wirtschaftlicher als eine Lösung mit vollwertigen PC's?;Wenn Einsparungen bei Anschaffung und Betrieb der Thin-Clients die Mehrkosten durch die Virtualisierungsserver überschreiten 
+Eine Virtuelle-Maschine, soll ohne grafische Benutzeroberfläche (GUI) installiert werden. Welche Vorteile hat diese Vorgehensweise?;"-System Ressourcen werden eingespart.
+-Es sind mehr Virtuelle-Maschinen auf dem Host installierbar."
+Welche Virtualisierungsart benötigt kein vollwertiges Host-Betriebssystem?;Bare Metal
+Welche 2 Probleme hat ein Rechenzentrum hauptsächlich zu lösen?;"- Sichere Bereitstellung der notwendigen Energie
+- Eine ausreichende Abfuhr der entstehenden Wärme zu gewärleisten"
+Welche Punkte sollten mit Blick auf GreenIT bei der Anschaffung neuer Hardware beachtet werden?;"- Recyclingfähigkeit
+- Niedriger Energieverbrauch
+- Langlebigkeit
+- Ressourcenschonende Produktion"
+Was sind KEINE Aufgaben eines Hypervisors?;"- Steigerung der Performance des Host-Systems
+- Vergrößerung des verfügbaren Arbeitsspeichers im Host-System"
+Was sind die Aufgaben eines Hypervisors? "- Bereitstellung virtueller Hardware für die Gastsysteme
+- Erzeugung einer Abstraktionsschicht
+- Steuerung der Ressourcenzuweisung für die Gastsysteme"
+Was sind die drei wesentlich schädlichen Effekte bei der IT?; "- Verbrauch von Energie bei der Herstellung und im Betrieb
+- Hoher Ressourcenverbrauch bei der Produktion
+- Emissionen bei der Produktion und in Betrieb"
+Zu welcher Gruppe Hypervisor gehört Hyper-V?; Bare Metal
+Nennen Sie die 3 Klassen in denen USV unterteilt werden;"- Klasse 1: VFI Voltage and Frequency Independent
+- Klasse 2: VI Voltage Independent
+- Klasse 3: VFD Voltage and Frequency Dependent"
+Welche zwei Störungen im Stromnetz können USV aller Klassen abgefangen?;"- Stromausfall
+- große Unterspannung"
+Warum kann auf einem Linux PC, Windows Betriebssysteme virtualisiert werden?;Weil die CPU-Architektur die gleiche ist.
+Welche Maßnahmen tragen dazu bei, negative Auswirkungen der Überprovisionierung zu vermeiden?;"-Auslastungsprognosen
+- Monitoring
+- Wenn möglich: Live Migration"
+Welche Funktionen umfassen USV der Klasse 1?; "- Unterbrechungsfreie Stromversorgung (USV)
+- Spannungsstabilisierungsfunktion
+- Einfache AVR-Funktion
+- Batterieüberwachung"
+Welche Funktionen umfassen USV der Klasse 2?; "- Unterbrechungsfreie Stromversorgung (USV)
+- Spannungsstabilisierungsfunktion
+- AVR-Funktion
+- Netzfrequenz-Korrekturfunktion
+- Überspannungsschutz- und Filterungsfunktion
+- Batterieüberwachung
+- Alarme und Warnungen"
+Welche Funktionen umfassen USV der Klasse 3?;"- Unterbrechungsfreie Stromversorgung (USV)
+- Spannungsstabilisierungsfunktion
+- Hochentwickelte AVR-Funktion
+- Netzfrequenz-Korrekturfunktion
+- Überspannungsschutz- und Filterungsfunktion
+- Batterieüberwachung
+- Erweiterte Fernüberwachungs- und Steuerungsfunktionen
+- Parallele redundante Konfiguration für erhöhte Leistung und Zuverlässigkeit"
+Was sind die Vorteile der Server-Virtualisierung?;"- Energieeinsparung
+- Bessere Auslastung der physischen Hardware 
+- Beschleunigung von Backups und Updates"
+Was muss bei der sogenannte "Freikühlung", also die Kühlung mit Außenluft, oft beachtetet werden?;"- Bei zu hoher Temperatur der Außenluft muss zusätzlich gekühlt werden.
+- Bei der direkten Freikühlung müssen meist Luftbefeuchter eingesetzt werden."
+USV können bei Stromausfall die angeschlossenen Verbraucher nur eine bestimmte Zeit mit Strom versorgen. Was ist für diese Zeit ausschlaggebend?;"- Die Gesamtkapazität der verbauten Akkus
+- Die Leistungsaufnahme der zu versorgenden Geräte"
+Bei Computern sprich man von “Carbon Footprint“. Was ist damit gemeint?;Da sie keinen direkten CO2-Ausstoß wie Fahrzeuge oder Flugzeuge haben spricht man von Carbon Footprint und dieser umfasst den Energieverbrauch bei der Herstellung, dem Betrieb und der Entsorgung.
+Wie berechnet man die benötigte Scheinleistung für ein USV mit einer Leistungsreserve von 30%? Gegeben ist der Blindfaktor/Scheinleistungsfaktor  von 1,55;"Scheinleistung einzelnes Gerät = 1,55 * Wirkleistung(W) des Gerätes
+Gesammt-Scheinleistung = Summe(Scheinleistung einzelner Geräte)
+Gesammt-Leistungsreserve = 0,3 * Gesammt-Scheinleistung
+
+Benötigte Scheinleistung = Gesammt-Scheinleistung + Gesammt-Leistungsreserve"
+Welche positiven Nebeneffekte bringt die Nutzung der Export-Funktion in Hyper-V bei der Sicherung einer VM mit sich?;"- VMs können auf anderen Hyper-V Servern genutzt werden
+- VMs können auf den gleichen Server wieder importiert werden
+- Kann als einfache Sicherung bezeichnet werden"
+Was sind die Vorteile, die vollwertige PCs gegenüber Thin Clients haben?;"- Offline-Nutzung möglich
+- Höhere Grafik-Performance"
+Sie haben auf einem Windows 10 Computer das Feature Hyper-V installiert und ihn neugestartet. Sie öffnen den Hyper-V Manager und bekommen die Fehlermeldung das der Hypervisor nicht ausgeführt wird. Was müssen Sie am Computer ändern?;Im BIOS die Virtualisierungs-Erweiterung der CPU aktivieren
+Komfort-Klimageräte kommen in Rechenzentren in der Regel nicht zum Einsatz. Was ist der Grund dafür?;Sie entfeuchten die Raumluft unkontrolliert.
+Welche elektrische Leistung dient als Berechnungsgrundlage für die Dimensionierung einer USV?;Scheinleistung
+Wie Berechnet man die Jahres-Stromkosten für ein Setup das 'h' stunden pro Tag und 'd' Tage pro Jahre läuft bei einem Strompreis von 'p' Cent je kWh?;"Gesammtleistung-kWh = Summe(W der Geräte)/1000
+Jahres-Verbrauch-Gesammt = Gesammtleistung-kWh * (h * d)
+Jahres-Stromkosten = Jahres-Verbrauch-Gesammt * p"
+Ein Rechenzentrum wird in die Bereiche, Feintechnik und Grobtechnik unterteilt. Welche Komponenten gehören zur Feintechnik?;"- Netzwerktechnik
+- Sicherheitstechnik"
+Eine Entwicklung in der IT hat in den letzten Jahren den Energiebedarf der Rechenzentren stark ansteigen lassen und verursacht heute bis zu 50% des Strombedarfs der IT-Komponenten. Welche Entwicklung ist das?; Durch die verstärkte Nutzung von Cloud-Computing steigt der Strombedarf der Speichersysteme
+Im Zusammenhang mit Virtualisierung taucht häufig der Begriff "Überprovisionierung" auf, was ist damit gemeint?;Es werden mehr System-Ressourcen an die VMs zugewiesen als in Summe physisch existieren
