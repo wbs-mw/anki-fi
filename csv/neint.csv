@@ -4,7 +4,7 @@ Was ist die Bitübertragungsschicht des OSI-Modells? (engl.: Physical layer); Di
 Was ist die Datensicherungschicht des OSI-Modells? (engl.: Link layer); Die Datensicherung ist zuständig für den unverfälschten Datentransport über einen einzelnen Übermittlungsabschnitt.
 Was ist die Vermittlungsschict des OSI-Modells? (engl.: Network layer); Die Vermittlung ist zuständig für die Überbrückung geografischer Entfernungen zwischen den Endsystemen durch Einbeziehung von Vermittlungssystemen.
 Was ist die Transportschicht des OSI-Modells? (engl.: Transport layer); Der Transport ist zuständig für die Erweiterung von Verbindungen zwischen Endsystemen zu Teilnehmerverbindungen.
-Wast ist die Sitzungsschicht des OSI-Modells? (engl.: Session layer); Die Sitzung ist zuständig für den geordneten Ablauf des Dialogs zwischen den Endsystemen.
+Was ist die Sitzungsschicht des OSI-Modells? (engl.: Session layer); Die Sitzung ist zuständig für den geordneten Ablauf des Dialogs zwischen den Endsystemen.
 Was ist die Darstellungsschicht des OSI-Modells? (engl.: Session layer); Die Darstellung ist zuständig für den gemeinsamen Zeichensatz und die gemeinsame Syntax.
 Was ist die Anwendungsschicht des OSI-Modells? (engl.: Application layer); Die Anwendung ist zuständig für die Steuerung der untergeordneten Schichten.
 In wievielen Schichten ist das OSI-Referenzmodell unterteilt?; Das OSI-Referenzmodell ist in sieben Schichten unterteilt.
@@ -72,3 +72,244 @@ Was ist IP?; IP steht für Internet Protocol und ist ein grundlegendes Netzwerkp
 Was ist TCP?; TCP steht für Transmission Control Protocol und ist ein Kernprotokoll der Internet Protocol Suite. Es ist ein zuverlässiges, verbindungsorientiertes Protokoll, das verwendet wird, um Daten zwischen Anwendungen auf verschiedenen Computern im Netzwerk zu übertragen.
 Was ist UDP?; UDP steht für User Datagram Protocol und ist ein Kernprotokoll der Internet Protocol Suite. Im Gegensatz zu TCP ist UDP ein unzuverlässiges, verbindungsloses Protokoll, das keine End-to-End-Verbindung zwischen den beteiligten Geräten herstellt.
 MAC ist ein Protokoll welcher Schicht des OSI-Referenzmodells?; MAC ist ein Protokoll der Sicherung (engl.: Link) des OSI-Referenzmodells.
+Wieviele Schichten hat das TCP/IP-Referenzmodell?; 4
+Wie groß ist eine MAC-Adresse?; 48 Bits
+In welche zwei Teile ist eine MAC-Adresse unterteilt?; Herstellerkennung und Gerätekennung
+Wieviele Bits sind bei der Herstellerkennung der MAC-Adresse zugeteilt?; 24 Bits
+Wieviele Bits sind der Gerätekennung der MAC-Adresse zugeteilt?; 24 Bits
+APIPA ist die Abkürzung des Begriffs?; Automatic Private IP-Adressing
+CIDR ist die Abkürzung des Begriffs?; Classless Inter Domain Routing
+Was ist CIDR?; CIDR ist ein Verfahren zur effizienteren Nutzung des Addressraums.
+Was ist Fragmentierung?; Die Fragmentierung ist eine IPv4 Funktion, die Daten, welche größer als erlaubt sind, in Fragmente aufteilt.
+Was ist logische Adressierung?; Die logische Adressierung ist eine IPv4 Funktion, die Netzteilnehmern mittels einmalig zugeteilten Adresse, die Kommunikation ermöglicht.
+MTU ist die Abkürzung des Begriffs?; Maximum Transmission Unit
+Was ist MTU?; MTU ist die größtmöglichste Länge der IPv5 Fragmente.
+Was ist Routing?; Das Routing ist eine IPv4 Funktion, die entscheidet über welchen Weg zum Zielnetz ein Datenpaket übertrage wird.
+Was ist Subnetting?; Subnetting ist das Unterteilen eines Netzes in mehrere Unternetze, die alle im selben zusammenhägneden Adressraum bleiben.
+Was ist Supernetting?; Supernetting ist die Zusammenfassung mehrerer Adressen in eine einzige Netzwerkkennung.
+VLSM ist die Abkürzung des Begriffs?; Variable Length of Subnet Mask
+Was ist VLSM?; VLSM ist eine Subnetzmaske mit variabler Länge, welche die Möglichkeit bietet Subnetze mit unterschiedlicher Größe zu erstellen.
+Auf welcher Schicht des OSI-Referenzmodells befindet sich IPv4?; Vermittlung / Network
+Auf welcher SChicht des TCP/IP-Referenzmodells befindet sich IPv4?; Internet
+Was ist die größtmögliche Länge eines IPv4 Fragments?; 1.500 Bytes
+Worauf hat die IPv4 Fragmentierung einen negativen Einfluss?; Datendurchsatz
+Wodurch kann der Sender die IPv4 Fragmentierung verhindern?; Mit der Don't-Fragment Flag
+Wie groß ist der IPv4 Header?; 20-60 Bytes
+Was ist die größtmögliche Länge eines IPv4 Pakets?; 65.535 Bytes
+Wie lang sind IPv4 Adressen?; 32 Bits
+Wieviele IPv4 Adressen sind theoretisch möglich?; 4.294.967.296
+In wieviele Blöcke werden IPv4 Adressen unterteilt?; 4 Blöcke
+Welche Größe hat ein Klasse A IPv4 Netzwerk?; 8 Bits
+Welche Größe hat ein Klasse B IPv4 Netzwerk?; 16 Bits
+Welche Größe hat ein Klasse C IPv4 Netzwerk?; 24 Bits
+Welche Größe hat ein Klasse A IPv4 Host?; 24 Bits
+Welche Größe hat ein Klasse B IPv4 Host?; 16 Bits
+Welche Größe hat ein Klasse C IPv4 Host?; 8 Bits
+Wieviele Hosts kann ein Klasse A IPv4 Netzwerk maximal haben?; 16.777.216 Hosts
+Wieviele Hosts kann ein Klasse B IPv4 Netzwerk maximal haben?; 65.536 Hosts
+Wieviele Hosts kann ein Klasse C IPv4 Netzwerk maximal haben?; 256 Hosts
+Zwischen welchen Zahlen muss das erste Byte der Adresse eines Klasse A Ipv4 Netzwerks sein?; 0-127
+Zwischen welchen Zahlen muss das erste Byte der Adresse eines Klasse B IPv4 Netzwerks sein?; 128-191
+Zwischen welchen Zahlen muss das erste Byte der Adresse eines Klasse C IPv4 Netzwerks sein?; 192-223
+Zwischen welchen Zahlen muss das erste Byte der Adresse eines Klasse D IPv4 Netzwerks sein?; 224-239
+Zwischen welchen Zahlen muss das erste Byte der Adresse eines Klasse E IPv4 Netzwerks sein?; 240-255
+Welche IPv4 Adresse has das vorliegende Netzwerk?; 0.0.0.0
+Welche IPv4 Adresse hat das Loopback?; 127.0.0.0/8
+Welche IPv4 Adresse hat das APIPA?; 169.254.0.0/15
+Welche IPv4 Adresse hat das globale Broadcast?; 255.255.255.255
+Welche IPv4 Adresse hat die Netz-ID?; Erste Adresse eines Netzwerks
+Welche IPv4 Adresse hat der lokale Broadcast?; Letzte Adresse eines Netzwerks
+Welche IPv4 Adresse hat ein privates Netzwerk der Klasse A?; 10.0.0.0/8
+Welche IPv4 Adresse hat ein privates Netzwerk der Klasse B?; 172.16.0.0/16
+Welche IPv4 Adresse hat ein privates Netzwerk der Klases C?; 192.168.0.0/24
+Welche Größe hat eine IPv4 Subnetzmaske?; 32 Bits
+Aus welchen zwei Anteilen besteht eine IPv4 Subnetzmaske?; Netzanteil und Hostanteil
+NDP ist die Abkürzung des Begriffs?; Neighbour Discovery Protocol
+Was ist NDP?; NDP ist ein IPv6-Protokoll zum Austausch link-lokaler Nachrichten wie ROuter Discovery und Neighbour Discovery.
+Durch welche Zeichenfolge können mehrere aufeinanderfolgende IPv6 Nullerblöcke gekürzt werden?; Zwei Doppelpunkte
+Durch welches Zeichen werden IPv6 Adresseblöcke getrennt?; Doppelpunkt
+In wieviele Blöcke werden IPv6 Adressen unterteilt?; 8 Blöcke
+Welche IPv6 Adresse ist als Broadcast definiert?; IPv6 hat keinen Broadcast
+Welche IPv6 Adresse ist als Loopback definiert?; ::1
+Welche IPv6 Netze werden dem Kunden vom Provider zugewiesen?; Netze mit dem /48 oder /56 Präfix
+Welche Zahlen können bei IPv6 Adressen ausgelassen werden?; Führende Nullen
+Welchen Präfix haben IPv6 6to4 Adressen?; 2002::/16
+Welchen Präfix haben IPv6 Anycast Adressen?; Anycast Adressen haben ein beliebiges Präfix
+Welchen Präfix haben IPv6 Dokumentations Adressen?; 2001:0db8::/32
+Welchen Präfix haben IPv6 Global Unicast Adressen?; 2000::/3
+Welchen Präfix haben IPv6 Link Local Unicast Adressen?; FE80::/10
+Welchen Präfix haben IPv6 Multicast Adressen?; FF/8
+Welchen Präfix haben IPv6 Teredo Adressen?; 2001::/32
+Welchen Präfix haben IPv6 Unique Local Unicast Adressen?; FC00::/7 oder FD00::/8
+Wie groß ist der IPv6 Adressraum?; 128 Bits
+Wie groß ist der IPv6 Header?; 40 Bytes
+Wieviele Bits umfassen den Netzwerkpräfix der IPv6 Adressen?; 64 Bits
+Wieviele Bits umfassen die Interface ID der IPv6 Adressen?; 64 Bits
+Auf welcher Schicht des OSI-Referenzmodells befindet sich IPv6?; Vermittlung / Network
+Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich IPv6?; Internet
+Was ist ein Router?; Ein Router ist ein System, das zum Verbinden von Netzwerken auf Grundlage eines Protokolls verwendet wird.
+Was ist ein Hardwarerouter?; Der Hardwarerouter ist ein dediziertes Gerät, welches hard- und softwaremäßig für die Weiterleitung von Paketen optimiert ist und ausschließlich dem Routing dient.
+Was ist ein Softwarerouter?; Der Softwarerouter ist in der Regel ein Gerät welches Routing als zusätzlichen Prozess ausführt.
+Was ist Routing-Tabelle?; Eine Routing-Tabelle ist eine Anzahl von Einträgen, die beschreiben über welchen Router welche Netzwerkkennung erreichbar ist.
+Was ist eine Netzwerkroute?; Eine Netzwerkroute ist ein Pfad zu einer bestimmten Netzwerkkennung.
+Hostroute; Eine Hostroute ist ein Pfad zu einer Netzwerkadresse.
+Standardroute; Eine Standardroute ist ein Pfad, welcher verwendet wird, wenn in der Routing-Tabelle keine anderen Routen gefunden werden.
+Open Shortest Path First; OSPF ist ein auf einem hierarchischem Link-State-Protokoll beruhendes Routingprotokoll.
+OSPF ist die Abkürzung des Begriffs?; Open Shortest Path First
+RIP ist die Abkürzung des Begriffs?; Routing Information Protocol
+Was ist RIP?; RIP ist ein Distance-Vector-Routing-Protokoll.
+DVA ist die Abkürzung des Begriffs?; Distance-Vector-Algorithmus
+Was ist DVA?; DVA ist ein Algorithmus bei dem in periodischen Abständen Routing-Informationen mit den direkten Nachbar-Routern ausgetauscht werden.
+LSA ist die Abkürzung des Begriffs?; Link-Status-Algorithmus
+Was ist LSA?; LSA ist ein Algorithmus bei dem die Grundlage der Erstellung der Routing-Tabelle die vollständige Topologie eines Bereiches ist.
+Auf welcher Schicht des OSI-Referenzmodells befindet sich der Router?; Vermittlung / Network
+Was verbindet ein Router?; Logisch getrennte Netze
+Was wird beim statischen Routing fest vorgegeben?; Routingtabelle
+Was wird beim statischen Routing vom Administrator aktualisiert?; Routingtabelle
+Auf was kann das statische Routing nicht selbstständig reagieren?; Veränderungen im Netzwerk
+Was wird beim dynamischen Routing durch Routingprotokolle erstellt?; Routingtabelle
+Was wird beim dynamischen Routing durch Routingprotokolle aktualisiert?; Routingtabelle
+Was erstellt beim dynamischen Routing die Routingtabelle?; Routingprotokolle
+Was aktualisiert beim dynamischen Routing die Routingtabelle?; Routingprotokolle
+Was können Routing-Algorithmen bei Veränderungen im Netzwerk selbstständig finden?; Neue Routen
+Welchen Vorteil hat das dynamische Routing?; Geringerer administrativer Aufwand
+Welchen Nachteil hat das dynamische Routing?; Zusätzlicher Netzwerkverkehr durch Routinginformationen
+Wieviele Typen von Routingeinträgen kann eine Routing-Tabelle enthalten?; 3
+Welche drei Typen von Routingeinträgen kann eine Routing-Tabelle enthalten?; Netzwerkroute, Hostroute, Standardroute
+Welche Netze werden automatisch in die Routingtabelle übernommen?; Lokal konfigurierte Netze (Netzwerkschnittstelle, Netzwerkkarte)
+Welchen Algorithmus verwendet RIP?; DVA
+Was ist die Grundlage der Routenwahl bei RIP?; Die Hop-Anzahl bis zum Zielnetz.
+Für welche Netzwerke ist RIP nicht geeignet?; Netzwerke mit mehr als 15 Zwischenstationen, da ein Hop-Eintrag von 16 bedeutet, dass dieses Netz nicht erreichbar ist.
+In welchem Zeitabstand senden Router ihre Routing-Tabellen regelmäßig an alle direkten Nachbarn?; 30 Sekunden
+Welche Nachteile hat RIP?; Schlecht skalierbar, Konvergenzzeiten für Routenänderungen
+Wieviele RIP Versionen gibt es?; 3
+Welche RIP Versionen gibt es?; RIPv1, RIPv2, RIPng
+Welche RIP Version unterstützt kein CIDR?; RIPv1
+Welche RIP Version unterstützt CIDR?; RIPv2
+Welche RIP Version enthält Erweiterungen für die Verwendung von IPv6?; RIPng
+Welche Art der Kommunikation verwendet RIPv1 für die Routenankündigung?; Broadcast
+Welche Art der Kommunikation verwendet RIPv2?; Multicast
+Welche Funktion bietet RIPv2 für die Router?; Authentifizierung
+NAT ist die Abkürzung des Begriffs?; Network Address Translation
+SNAT ist die Abkürzung des Begriffs?; Source Network Address Translation
+Was ist SNAT?; SNAT ist ein Verfahren, bei dem auf dem NAT-Router die Quell-IP-Adresse eines IP-Pakets durch eine andere ersetzt wird.
+PAT ist die Abkürzung des Begriffs?; Port and Address Translation
+Was ist PAT?; PAT ist eine Erweiterung von NAT um eine dynamische Portumsetzung
+DNAT ist die Abkürzung des Begriffs?; Destination Network Address Translation
+Wieviele öffentliche Adressen haben LANs in der Regel?; 1
+Bei PAT wird der Quellport des internen Clients durch was ersetzt?; Freier Port des Routers
+Mit welcher Adresse ersetzt der Router die Quelladresse im ausgehenden IP-Paket?; Mit der öffentlichen Adresse des Routers
+Aus welchem Grund führt der Router eine NAT-Tabelle?; Um die Antwortpakete dem richtigen Sender wieder zuordnen zu können
+Welche Werte werden bei eingehenden IP-Pakete ersetzt?; Zieladresse und Zielport
+Worauf bezieht sich der Router beim Ersetzen der Zieladresse und des Zielports bei eingehenden IP-Paketen?; NAT-Tabelle
+Unter welchem Namen ist DNAT noch bekannt?; Port-Forwarding
+Was wird dem Port bei DNAT zugeordnet?; Interne IP-Adresse
+Warum wird dem Port bei DNAT eine internet IP-Adresse zugeordnet?; Für Weiterleitung der Pakete
+Wie trägt NAT zur Erhöhung der Sicherheit bei?; Durch das Verbergen der internen Adressen vor dem Internet
+Warum spart NAT IPv4 Adresse ein?; Durch mehrfache Nutzung identischer privater IP-Adressen
+Warum entstehen bei NAT Probleme bei Verschlüsselungsverfahren, die auf eindeutige Zuordnung angewiesen sind?; Die Zuordnung "1 Host mit eindeutiger IP-Adresse" wird verhindert
+ICMP ist die Abkürzung des Begriffs?; Internet Control Message Protocol
+Was ist ICMP?; ICMP ist ein Protokoll, das zur Übermittlung von Meldungen über IP dient.
+Auf welcher Schicht des OSI-Referenzmodells befindet sich ICMP?; Vermittlung / Network
+Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich ICMP?; Internet
+Wieviele Felder beinhalten ICMP-Nachrichten?; 3
+Welche Felder beinhalten ICMP-Nachrichten?; Typ, Code, Checksumme
+Welche bekannten Tools nutzen ICMP?; Ping, Trace Route
+Welche Sicherheitsbedrohungen hat ICMP?; DDoS, Smurf, Flooding, Ping of Death
+IGMP ist die Abkürzung des Begriffs?; Internet Group Management Protocol
+Was ist IGMP?; IGMP ist eine Erweiterung des IPv4.
+Was ist IGMP-Snooping?; IGMP-Snooping ist ein Abhörverfahren für Multicast-Datenverkehr.
+Welche Funktion ermöglicht IGMP?; IP-Multicasting
+Wozu dient IGMP?; Dynamische Gruppenverwaltung
+Auf welcher Schicht des OSI-Referenzmodells befindet sich IGMP?; Vermittlung / Network
+Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich IGMP?; Internet
+Wo erfolgt die IGMP Verwaltung?; Router
+Welche Netzwerkteilnehmer müssen IGMP-Snooping beherrschen?; Router, Switches
+Bei welchem IPv4 Verfahren wird der Multicast-Datenverkehr überwacht?; IGMP-Snooping
+Bei welchem IPV4 Verfahren wird der Beitritt und Verlass einer Multicast-Gruppe erkannt?; IGMP-Snooping
+Bei welchem IPV4 Verfahren wird eine Adresstabelle der Empfänger einer Multicast-Gruppe geführt?; IGMP-Snooping
+Wieviele Felder beinhalten IGMP-Nachrichten?; 4
+Welche Felder beinhalten IGMP-Nachrichten?; Typ, Response Time, Checksum, Multicast-IP-Address
+TCP ist die Abkürzung des Begriffs?; Transmission Control Protocol
+Was ist TCP?; TCP ist ein verbindungsorientiertes Protokoll.
+Auf welcher Schicht des OSI-Referenzmodells befindet sich TCP?; Transport
+Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich TCP?; Transport
+Mit Hilfe welches TCP-Feldes können Segmente wieder in richtiger Reihenfolge zusammengebaut werden?; Sequenznummer
+Welchen Nachteil hat TCP?; Großer Overhead
+UDP ist die Abkürzung des Begriffs?; User Datagram Protocol
+Was ist UDP?; UDP ist ein verbindungsloses Protokoll.
+Auf welcher Schicht des OSI-Referenzmodells befindet sich UDP?; Transport
+Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich UDP?; Transport
+Was stellt bei UDP den Empfang sicher?; Anwendungsprotokolle
+Was ist ein Port?; Ein Port ist ein Prozess, der seine Daten an die darunterliegenden Schicht übergibt bzw. von dieser erhält.
+Wieviele Ports gibt es?; 65.536
+Wieviele Bits kennzeichnen einen Port?; 16 Bitübertragungsschicht
+In welchen Zuständen können Ports sich befinden?; Offen, Geschlossen, Gefiltert
+Welche Ports sind Well Known Ports?; 0 - 1.023
+Welche Ports sind Registered Ports?; 1.024 - 49.151
+Welche Ports sind Dynamically Allocated Ports?; 49.152 - 65.535
+Auf welcher Schicht des OSI-Referenzmodells befindet sich der Port?; Transport
+Welcher Port wird für IP verwendet?; 0
+Welcher Port wird für ICMP verwendet?; 1
+Welcher Port wird für TCP verwendet?; 6
+Welcher Port wird für FTP (data) verwendet?; 20
+Welcher Port wird für FTP (control) verwendet?; 21
+Welcher Port wird für SMTP verwendet?; 25
+Welcher Port wird für HTTP verwendet?; 80
+Welcher Port wird für POP2 verwendet?; 109
+Welcher Port wird für POP3 verwendet?; 110
+Was ist ein Socket?; Der Socket ist die Adresskombination aus IP-Adresse und Portnummer, welche einen Kommunikationsendpunkt darstellt.
+Zwischen was bilden Sockets eine standardisierte Schnittstelle?; Netzwerkprotokoll und Anwendung
+DHCP ist die Abkürzung des Begriffs?; Dynamic Host Configuration Protocol
+Was ist DHCP?; DHCP ist ein Protokoll bei dem IP-Adressen und andere Konfigurationseinstellungen von einem DHCP-Server an Clients dynamisch zugewiesen werden.
+Welches Transportprotokoll verwendet DHCP?; UDP
+Welche Ports verwendet DHCP?; 67, 68
+Innerhalb welcher Domäne müssen sich DHCP-Server und Client befinden?; Broadcast-Domäne
+Welche vier Schritten beschreiben DORA?; 1. Discover 2. Offer 3. Request 4. Acknowledge
+Was macht ein DHCP-Client im Discover Schritt des DORA Prinzips?; Verschickt ein UDP-Paket mit der Ziel-Adresse 255.255.255.255 und der Quell-Adresse 0.0.0.0
+VLAN ist die Abkürzung des Begriffs?; Virtual Local Area Network
+Was ist VLAN?; VLAN ist ein virtuelles Netzwerk innerhalb eines tatsächlichen Netzwerkes.
+ACL ist die Abkürzung des Begriffs?; Access Control List
+TPID ist die Abkürzung des Begriffs?; Tag Protocol ID
+PCP ist die Abkürzung des Begriffs?; Priority Code Point
+CFI ist die Abkürzung des Begriffs?; Canonical Format Indicator
+VID ist die Abkürzung des Begriffs?; VLAN ID
+Was ist VLAN-Pruning?; VLAN-Pruning ist eine Funktion, die dafür sorgt, dass Broadcasts fpr Broadcast-Domänen nicht an Switches weitergeleitet werden.
+Wo werden VLANs eingerichtet?; Switches
+Warum wird der Broadcast-Verkehr bei der Bildung von VLANs reduziert?; Verkleinerung der Broadcast-Domänen
+Welchen Effekt hat die Verkleinerung der Broadcast-Domänen durch die Bildung von VLANs?; Reduzierung des Broadcast-Verkehrs
+Warum ist die Sicherheit in VLANs erhöht?; Trennung der Netze, ACL
+Worüber erfolgt die Verwaltung eines VLANs?; Switch, Layer 3 Switch
+Welche Nachteile hat VLAN?; Komplexere Konfiguration, teure Komponenten
+Zwischen welche zwei Typen werden VLANs unterschieden?; Portbasierte, Tagged
+Wie werden VLANs auf einem managed Switch zugeordnet?; Ports
+Wie wird ein VLAN in einem Ethernet-Frame markiert?; Tag
+Welchen Nutzen dient der VLAN Tag?; Zuordnung, Ausdehnung über mehrere Switche
+Warum kann Verkehr zwischen VLANs nicht stattfinden?; Der Switch leitet nur Frames nur innerhalb desselben VLANs weiter
+Wo wird im Ethernet-Frame der Tag hinzugefügt?; Zwischen dem Adressblock und dem Type-/Length-Field
+Welche IEEE Normung entspricht dem Tagged VLAN?; 802.1Q
+Wieviele Bytes ist der VLAN Tag?; 4 Byte
+Wieviele Bytes ist ein Ethernet-Frame wenn ein VLAN Tag hinzugefügt ist?; 1.522 Bytes
+Aus welchen Feldern besteht der VLAN Tag?; TPID, PCP, CFI, VID
+Auf welchen Wert wird das TPID Feld des VLAN Tags gesetzt?; 0x8100
+Wie nennt man eine Verbindung zwischen Switches, welche getaggte Pakete transportieren?; Trunk
+Nur wo sind VLAN-Tags enthalten?; In Paketen von Switch-zu-Switch
+Wo wird der Tag dem Paket hinzugefügt?; Switch
+Wo wird der Tag dem Paket entfernt?; Switch
+In welche zwei Arten können Ports dem VLAN zugeordnet werden?; Statisch, Dynamisch
+Wie werden Ports bei der statischen Zuordnung bei VLANs zugeordnet?; Manuell vom Administrator
+Welchen Vorteil hat die statische Zuordnung?; Eindeutige Zuordnung
+Welchen Nachteil hat die statische Zuordnung?; Hoher administrativer Aufwand, fehlende Mobilität der Geräte
+Wie werden Ports bei der dynamischen Zuordnung bei VLANs zugeordnet?; Auf Basis von Kriterien, wie MAC- oder IP-Adresse oder Authentifizierung
+Welchen Vorteil hat die dynamische Zuordnung?; Geringerer administrativer Aufwand, Mobilität der Geräte
+Welchen Nachteil hat die dynamische Zuordnung?; Sicherheitsdefizite (z.B. MAC-Adressenfälschung)
+Auf welcher Schicht des OSI-Referenzmodells findet die Trennung der VLANs statt?; Network / Vermittlung
+Bei welchem Gerät findet die Trennung der VLANs statt?; Router
+Wie können verschiedene VLANs miteinander kommunizieren?; Router
+Warum werden keine Broadcasts zwischen getrennten VLANs übertragen?; Trennung auf der dritten Schicht
+Wie oft müssen Access-Listen pro Subnetz konfiguriert werden?; Ein mal
+Was kann man mittels VLAN-Pruning erlauben oder verbieten?; Broadcast Transport durch Trunk
+Auf welcher Schicht des TCP/IP-Referenzmodells findet die Trennung der VLANs statt?; Internet
+Wieviele VLAN Netze werden gleichtzeitig unterstützt?; 4.096
+Anhand was kann man die maximale VLAN Anzahl erkennen?; VID Feld Länge im Tag
+Wieviele Bits hat das VID Feld im Tag?; 12 Bits
