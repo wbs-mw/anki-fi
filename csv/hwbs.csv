@@ -1,1 +1,221 @@
-
+BUS ist die Abkürzung des Begriffs?; Binary Unit System
+AGU ist die Abkürzung des Begriffs?; Address Generation Unit
+ALU ist die Abkürzung des Begriffs?; Arithmetic Logic Unit
+MUL ist die Abkürzung des Begriffs?; Multiplication Unit
+ABM ist die Abkürzung des Begriffs?; Advanced Bit Multiplication
+FPU ist die Abkürzung des Begriffs?; Floating Point Unit
+FADD ist die Abkürzung des Begriffs?; Floating Point Add Unit
+FMUL ist die Abkürzung des Begriffs?; Floating Point Multiply Unit
+FSTOR ist die Abkürzung des Begriffs?; Floating Point Store Unit
+TLB ist die Abkürzung des Begriffs?; Translation Lookaside Buffer
+Was ist AGU?; AGU ist eine Ausführungseinheit die Adressen berechnet, welche von der CPU verwendet werden um auf den Hauptspeicher zuzugreifen.
+Was ist ALU?; ALU ist eine Ausführungseinheit, welche einfache arithmetische und logische Operationen auf ganze Zahlen anwendet.
+In welchen vier Schritten verläuft das grundsätzliche Arbeitsprinzip der Programmbearbeitung?; Fetch → Decode → Execute → Write Back
+SISD ist die Abkürzung des Begriffs?; Single Instruction Single Data
+SIMD ist die Abkürzung des Begriffs?; Single Instruction Multiple Data
+ILP ist die Abkürzung des Begriffs?; Instruction Level Parallelism
+TLP ist die Abkürzung des Begriffs?; Thread Level Parallelism
+CPU ist die Abkürzung des Begriffs?; Central Processing Unit
+Was ist L3-Cache?; L3-Cache ist ein Cache, welcher als Shared Cache für alle Kerne verwendet wird (puffert Daten aus L1 und L2).
+Mit welcher Taktfrequenz operieren L1- und L2-Caches?; L1- und L2-Caches operieren mit der Taktfrequenz der Kerne.
+Mit welcher Taktfrequenz arbeitet der L3-Cache?; Der L3-Cache arbeitet mit der Taktfrequenz der Northbridge.
+Nach welchem Verfahren wird der L3-Cache verwendet?; Der L3-Cache wird nach dem Round-Robin-Verfahren verwendet.
+RAM ist die Abkürzung des Begriffs?; Random Access Memory
+Was ist RAM?; RAM ist ein flüchtiger Speicher mit wahlfreiem Zugriff, der beliebig gelesen und beschrieben werden kann.
+SRAM ist die Abkürzung des Begriffs?; Static Random Access Memory
+DRAM ist die Abkürzung des Begriffs?; Dynamic Random Access Memory
+SDRAM ist die Abkürzung des Begriffs?; Synchronous Dynamic Random Access Memory
+DDR-RAM ist die Abkürzung des Begriffs?; Double Data Rate Random Access Memory
+RDRAM ist die Abkürzung des Begriffs?; Rambus Dynamic Random Access Memory
+SIMM ist die Abkürzung des Begriffs?; Single Inline Memory Module
+DIMM ist die Abkürzung des Begriffs?; Dual Inline Memory Module
+SO-DIMM ist die Abkürzung des Begriffs?; Small Outline Dual Inline Memory Module
+RIMM ist die Abkürzung des Begriffs?; Rambus Inline Memory Module
+SO-RIMM ist die Abkürzung des Begriffs?; Small Outline Rambus Inline Memory Module
+SPD ist die Abkürzung des Begriffs?; Serial Presence Detect
+HDD ist die Abkürzung des Begriffs?; Hard Disk Drive
+SMART ist die Abkürzung des Begriffs?; Self Monitoring Analysis and Reporting Technology
+FAT ist die Abkürzung des Begriffs?; File Allocation Table
+NTFS ist die Abkürzung des Begriffs?; New Technology File System
+exFAT ist die Abkürzung des Begriffs?; Extensible File Allocation Table
+HFS ist die Abkürzung des Begriffs?; Hierarchical File System
+EXT ist die Abkürzung des Begriffs?; Extended File System
+HPFS ist die Abkürzung des Begriffs?; High Performance File System
+SSD ist die Abkürzung des Begriffs?; Solid State Disk
+SLC ist die Abkürzung des Begriffs?; Single Level Cell
+MLC ist die Abkürzung des Begriffs?; Multi Level Cell
+USB ist die Abkürzung des Begriffs?; Universal Serial Bus
+HDMI ist die Abkürzung des Begriffs?; High Definition Multimedia Interface
+DP ist die Abkürzung des Begriffs?; Display Port
+DVI ist die Abkürzung des Begriffs?; Digital Visual Interface
+UPnP ist die Abkürzung des Begriffs?; Universal Plug and Play
+BIOS ist die Abkürzung des Begriffs?; Basic Input / Ouput System
+UEFI ist die Abkürzung des Begriffs?; Unified Extensible Firmware Interface
+PCI ist die Abkürzung des Begriffs?; Peripheral Component Interconnect
+PCIe ist die Abkürzung des Begriffs?; Peripheral Component Interconnect express
+SCSI ist die Abkürzung des Begriffs?; Small Computer System Interface
+SAS ist die Abkürzung des Begriffs?; Serial Attached SCSI
+Aus wievielen Zeichen besteht das Dezimalsystem?; Das Dezimalsystem besteht aus 10 Zeichen (0-9).
+Aus wievielen Zeichen besteht das Binärsystem?; Das Binärsystem besteht aus 2 Zeichen (0-1).
+Aus wievielen Zeichen besteht das Hexadezimalsystem?; Das Hexadezimalsystem besteht aus 16 Zeichen (0-F).
+ Was ist das Dezimalsystem?; Das Dezimalsystem ist das Standardsystem zur Bezeichnung ganzer, rationaler, irrationaler und transzendenter Zahlen. Im Dezimalsystem verwendet man zehn Zeichen.
+Was ist das Binärsystem?; Das Binärsystem ist ein Zahlensystem, das zur Darstellung von Zahlen nur zwei verschiedene Zeichen benutzt.
+Wie wird das Binärsystem auch genannt?; Das Binärsystem wird auch Dualsystem genannt.
+Was ist das Hexadezimalsystem?; Das Hexadezimalsystem ist ein Zahlensystem bei dem 16 Zeichen verwendet werden.
+Was ist 0x10 umgewandelt ins Dezimalsystem?; 16
+Was ist 0x20 umgewandelt ins Dezimalsystem?; 32
+Was ist 0x30 umgewandelt ins Dezimalsystem?; 48
+Was ist 0x40 umgewandelt ins Dezimalsystem?; 64
+Was ist 0x50 umgewandelt ins Dezimalsystem?; 80
+Was ist 0x60 umgewandelt ins Dezimalsystem?; 96
+Was ist 0x70 umgewandelt ins Dezimalsystem?; 112
+Was ist 0x80 umgewandelt ins Dezimalsystem?; 128
+Was ist 0x90 umgewandelt ins Dezimalsystem?; 144
+Was ist 0xA0 umgewandelt ins Dezimalsystem?; 160
+Was ist 0xB0 umgewandelt ins Dezimalsystem?; 176
+Was ist 0xC0 umgewandelt ins Dezimalsystem?; 192
+Was ist 0xD0 umgewandelt ins Dezimalsystem?; 208
+Was ist 0xE0 umgewandelt ins Dezimalsystem?; 224
+Was ist 0xF0 umgewandelt ins Dezimalsystem?; 240
+Was ist 0xFF umgewandelt ins Dezimalsystem?; 255
+$1; Was ist 0b0001 umgewandelt ins Hexadezimalsystem?; 0x1
+$1; Was ist 0b0010 umgewandelt ins Hexadezimalsystem?; 0x2
+$1; Was ist 0b0011 umgewandelt ins Hexadezimalsystem?; 0x3
+$1; Was ist 0b0100 umgewandelt ins Hexadezimalsystem?; 0x4
+$1; Was ist 0b0101 umgewandelt ins Hexadezimalsystem?; 0x5
+$1; Was ist 0b0110 umgewandelt ins Hexadezimalsystem?; 0x6
+$1; Was ist 0b0111 umgewandelt ins Hexadezimalsystem?; 0x7
+$1; Was ist 0b1000 umgewandelt ins Hexadezimalsystem?; 0x8
+$1; Was ist 0b1001 umgewandelt ins Hexadezimalsystem?; 0x9
+$1; Was ist 0b1010 umgewandelt ins Hexadezimalsystem?; 0xA
+$1; Was ist 0b1011 umgewandelt ins Hexadezimalsystem?; 0xB
+$1; Was ist 0b1100 umgewandelt ins Hexadezimalsystem?; 0xC
+$1; Was ist 0b1101 umgewandelt ins Hexadezimalsystem?; 0xD
+$1; Was ist 0b1110 umgewandelt ins Hexadezimalsystem?; 0xE
+$1; Was ist 0b1111 umgewandelt ins Hexadezimalsystem?; 0xF
+Was ist 22?; 4
+Was ist 24?; 16
+Was ist 28?; 256
+Was ist 216?; 65.536
+Was ist 224?; 16.777.216
+Was ist 232?; 4.294.967.296
+Was ist 264?; 18.446.774.073.709.551.616
+Was ist Partitionierung?; Partitionieren ist das Aufteilen eines Datenträgers in einzelne, voneinander unabhängige Speicherbereiche.
+MBR ist die Abkürzung des Begriffs?; Master Boot Record
+GPT ist die Abkürzung des Begriffs?; GUID Partition Table
+Was ist MBR?; MBR ist der physikalische erste Sektor eines Datenträgers, der zum Booten von Betriebssystemen verwendet wird.
+GUID ist die Abkürzung des Begriffs?; Globally Unique Identifier
+Was ist GPT?; GPT ist ein Standard zur Formatierung von Partitionstabellen für Speichermedien.
+Was ist GUID?; GUID ist eine Zahl mit 128 Bit, die eine eindeutige Identifizierung von Dateien, Datenträgern und Partitionstypen ermöglicht.
+Wieviele Partitionen kann eine MBR Partitionierung verwalten?; Eine MBR Partitionierung kann bis zu vier Partitionen verwalten.
+Wieviele erweiterte Partitionen kann eine MBR Partitionierung verwalten?; Eine MBR Partitionierung kann eine erweiterte Partition verwalten.
+Wieviele bootfähige Partitionen kann eine MBR Partitionierung verwalten?; Eine MBR Partitionierung kann bis zu vier bootfähige Partitionen verwalten.
+In wieviele logische Partitionen kann eine erweiterte Partition bei einer MBR Partitionierung unterteilt werden?; Eine erweiterte Partition bei einer MBR Partitionierung kann in unendlich viele logische Partitionen unterteilt werden.
+Wieviele Datenträger können maximal unter Windows gleichzeitig laufen?; 24
+Was ist BUS?; Ein BUS ist ein System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg.
+Was ist eine Unicast-Verbindung?; Die Unicast-Verbindung ist eine Kommunikationsform in der eine Nachricht von einem Sender an einen einzigen Empfänger gesendet wird.
+Was ist eine Broadcast-Verbindung?; Die Broadcast-Verbindung ist eine Kommunikationsform in der eine Nachricht von einem Sender an alle Teilnehmer gesendet wird.
+Was ist eine Multicast-Verbindung?; Die Multicast-Verbindung ist eine Kommunikationsform in der eine Nachricht von einem Sender an mehrere Teilnehmer gesendet wird.
+Was ist der Systembus?; Der Systembus ist eine Zusammenfassung von Bussen, über die eine CPU mit der Umgebung kommuniziert.
+Aus welchen Bussen besteht häufig der Systembus?; Datenbus, Adressbus, Steuerbus
+Was ist der Datenbus?; Der Datenbus ist ein System welches die bidirektionale parallele Datenübertragung zwischen der CPU, den Hardware-Komponenten, Speicher und Peripheriegeräten ermöglicht.
+Was ist der Adressbus?; Der Adressbus ist eine System, welches die unidirektionale Übertragung von Speicheradressen ermöglicht.
+Was ist der Steuerbus?; Der Steuerbus ist ein System, welches die bidirektionale Steuerung des Bussystems ermöglicht.
+Welche Signale werden vom Steuerbus verarbeitet?; Lesen aus dem RAMSchreiben in das RAMEingabe von peripheren GerätenAusgabe an peripheren GerätenInterruptsignale
+Wovon hängt die Datenbus-Breite ab?; Die Datenbus-Breite hängt von der Datenwortbreite der CPU ab (8, 16, 32 oder 64 Bit).
+Was legt fest wieviel Speicher direkt adressiert werden können?; Die Busbreite legt fest, wieviel Speicher direkt adressiert werden können.
+Was ist der Arbiter?; Der Arbiter ist eine Schaltung, die entscheidet, welcher von den Eingängen zuerst aktiv über den Bus wird.
+BREQ ist die Abkürzung des Begriffs?; Bus Request
+BGRT ist die Abkürzung des Begriffs?; Bus Generation
+BGA ist die Abkürzung des Begriffs?; Bus Grant Acknowledge
+Was ist CISC?; CISC ist eine Designphilosophie für Prozessoren und steht für einen umfangreichen Befelssatz.
+Was ist RISC?; RISC ist eine Designphilosophie für Prozessoren und steht für einen reduzierten Befehlssatz.
+Wie wird der Datendurchsatz des Arbeitsspeichers errechnet?; Datendurchsatz = Datenbusbreite ⋅ Taktfrequenz ⋅ Channel / 8
+CISC ist die Abkürzung des Begriffs?; Complex Instruction Set Computer
+RISC ist die Abkürzung des Begriffs?; Reduced Instruction Set Computer
+Was ist Dual Channel?; Als Dual Channel bezeichnet man eine Architektur in der Computertechnik, mit der zwei (oder auch mehr) Arbeitsspeicher-Module an einem Prozessor parallel betrieben werden können.
+ECC ist die Abkürzung des Begriffs?; Error Correction Code
+Was ist Cache?; Cache ist ein sehr schneller Puffer-Speicher, der zwischen dem Arbeitsspeicher und dem Prozessor liegt.
+Was ist L1-Cache?; L1-Cache ein Cache welcher dem Rechenkern am nächsten liegt und ist in der Regel nicht besonders groß.
+Was ist L2-Cache?; L2-Cache ein Cache, welcher deutlich größer als der L1-Cache ist und beinhaltet üblicherweise sowohl Daten als auch Befehlssequenzen.
+Mit bis zu welcher Massenspeichergröße kann eine MBR-Partitionierung arbeiten?; Eine MBR-Partitionierung kann mit einer Massenspeichergröße von bis zu 2 TiB arbeiten.
+Mit bis zu wievielen Partitionen kann eine GPT-Partitionierung arbeiten?; Eine GPT-Partitionierung kann mit bis zu 128 Partitionen arbeiten.
+Mit bis zu welcher Massenspeichergröße kann eine GPT-Partitionierung arbeiten?; Eine GPT-Partitionierung kann mit einer Massenspeichergröße von bis zu 8 ZebiByte arbeiten.
+Was ist SSD?; Ein SSD ist ein nichtflüchtiges elektronisches Speichermedium, welches aus Halbleiterbausteinen besteht.
+Welche Vorteile hat eine SSD gegenüber einer HDD?; - Hohe Transferraten und kurze Zugriffszeiten\n- Schnelleres Starten von Programmen und AnwendungenKürzere Bootzeiten von Notebook und Desktop-PC\n- Raschere Verfügbarkeit von lokalen Daten\n- Optimal für den mobilen Einsatz in Notebooks und Netbooks\n- Keine bewegten mechanischen Komponenten\n- Völlig geräuschloser und vibrationsloser Betrieb\n- Niedriger Energieverbrauch für längere Akkulaufzeit\n- Niedrige Wärmeentwicklung, keine zusätzliche Kühlung notwendig\n- Stoßunempfindlich, funktionsfähig in jeder Einbaulage\n- Geringeres Gewicht
+Welche Nachteile hat eine SSD?; Begrenzte Anzahl der Schreibzyklen pro Speicherzelle\n- Sichere Löschung nur mit zusätzlichen Tools\n- Hoher Preis
+Was ist eine Schnittstelle?; Eine Schnittstelle ist eine Verbindung zwischen Systemen, welche unterschiedliche physikalische, elektrische, mechanische oder logische Eigenschaften besitzen.
+Was ist eine Serielle Schnittstelle?; Schnittstelle	Eine serielle Schnittstelle ist eine Schnittstelle über der Daten auf nur einer Leitung übertragen werden.
+Was ist eine Parallele Schnittstelle?; Eine parallele Schnittstelle ist eine Schnittstelle über der Daten auf mehreren Leitungen gleichzeitig übertragen werden.
+Was ist USB?; Der USB ist ein serielles Datenübertragungssystem zur Verbindung eines Computers mit externen Geräten.
+SATA ist die Abkürzung des Begriffs?; Serial Advanced Technology Attachment
+Was ist SATA?; SATA ist eine Weiterentwicklung der parallelen ATA-Schnittstelle für Datenträger zu einer seriellen Schnittstelle.
+Was ist der zulässige Spannungsbereich bei USB 1.0 und USB 1.1?; 4,40 - 5,50 Volt
+Was ist der zulässige Spannungsbereich bei USB 2.0?; 4,75 - 5,50 Volt
+Was ist der zulässige Spannungsbereich bei USB 3.0 und USB 3.1?; 4,45 - 5,50 Volt
+Was ist die maximale Stromstärke bei USB 1.0 und USB 1.1?; 0,1 A
+Was ist die maximale Stromstärke bei USB 2.0?; 0,5 A
+Was ist die maximale Stromstärke bei USB 3.0 und USB 3.1?; 0,9 A
+Was ist die maximale Leistung bei USB 1.0 und USB 1.1?; 0,5 Watt
+Was ist die maximale Leistung bei USB 2.0?; 2,5 Watt
+Was ist die maximale Leistung bei USB 3.0 und USB 3.1?; 4,5 Watt
+Welche Farbe hat der Eingang für das Mikrofon?; Rosa
+Welche Farbe hat der Ausgang für Lautsprecher?; Grün
+Welche Farbe hat der Eingang für externe Quellen?; Blau
+Welche Farbe hat der Ausgang für Seitenlautsprecher?; Grau / Weiß
+Welche Farbe hat der Ausgang für Center- und Tiefbasslautsprecher?; Orange
+Welche Farbe hat der Ausgang für Rücklautsprecher?; Schwarz
+VGA ist die Abkürzung des Begriffs?; Video Graphics Array
+Was ist VGA?; VGA ist eine Schnittstelle zur Übertragung von analogen Signalen zwischen einer Grafikkarte und Anzeigegeräten.
+Was ist DVI?; DVI ist eine Schnittstelle zur Übertragung von digitalen Signalen zwischen einer Grafikkarte und Anzeigegeräten.
+Was ist HDMI?; HDMI ist eine Schnittstelle zur Übertragung von kopiergeschützten, hochauflösenden, digitalen Video- und Audiodaten.
+PS/2 ist die Abkürzung des Begriffs?; Person System/2
+Was ist PS/2?; PS/2 ist eine serielle Schnittstelle für Eingabegeräte.
+RJ45 ist die Abkürzung des Begriffs?; Registered Jack 45
+Was ist PCIe?; PCIe ist eine serielle Schnittstelle für Erweiterungskarten.
+Was ist PCI?; PCI ist eine parallele Schnittstelle für Erweiterungskarten.
+Was ist BIOS?; Das BIOS ist eine Schnittstelle zwischen Hardware und Betriebssystem.
+POST ist die Abkürzung des Begriffs?; Power On Self Test
+Was ist POST?; POST ist ein Test der beim Einschalten des Computers vom BIOS ausgeführt wird, bei dem die Hardware-Komponenten in Betrieb genommen und getestet werden.
+Wann braucht man UEFI?; - 64-Bit Architektur\n- GPTSecure Boot\n- Boot Optionen bei Touch-Bedienung
+Was ist der Kernel?; Der Kernel ist der zentrale Bestandteil eines Betriebssytems.
+Was ist Display Port?; Der Display Port ist ein Verbindungsstandard für die Übertragung von digitalen Bild- und Tonsignalen.
+Was ist FAT?; FAT ist ein Dateisystem, welches von Microsoft in 1977 entwickelt wurde.
+Was ist NTFS?; NTFS ist ein proprietäres Dateisystem von Microsoft für alle Betriebssysteme der Windows NT Reihe (ab 1993).
+Was ist exFAT?; exFAT ist ein speziell für Flash-Speicher entwickeltes Dateisystem.
+Was ist HFS?; HFS ist ein Dateisystem, das von Apple für Computer mit der Macintosh System Software (ab 1996 in Mac OS umbenannt) entwickelt wurde.
+Was ist Ext?; Ext ist ein Dateisystem welches als Erweiterung für das Minix-Dateisystem entwickelt wurde und ist seit 1992 Teil von Linux.
+Was ist HPFS?; HPFS ist das Dateisystem von OS/2 und wurde 1989 mit der OS/2-Version 1.2 als erste Implementierung eines installierbaren Dateisystems (IFS) eingeführt.
+Was ist SMART?; SMART ist ein Industriestandard zur Überwachung von HDDs und SSDs und dient der Vorhersage eines möglichen Ausfalls des Speichermediums.
+Was ist SLC?; Eine SLC ist eine Speicherzelle, die aus NAND-Flash besteht und ein Bit speichern.
+Was ist MLC?; Eine MLC ist eine Speicherzelle, die aus NAND-Flash bestehen und zwei Bit speichert.
+Was ist UEFI?; UEFI ist eine von Intel in 1998 veröffentlichte Schnittstellen-Definition für Computer-Firmware.
+Was ist Secure Boot?; Secure Boot ist ein Boot-Mechanismus, der das Booten auf vorher signierte Bootloader beschränkt.
+Was ist SRAM?; SRAM ist ein flüchtiger Speicher, bei dem Daten solange gespeichert sind wie eine Betriebsspannung anliegt.
+Was ist DRAM?; DRAM ist ein flüchtiger Speicher, bei dem Daten solange gespeichert sind wie eine Betriebsspannung anliegt. Außerdem müssen die Daten periodisch augefrischt werden, damit sie nicht verloren gehen.
+Was ist SDRAM?; SDRAM ist ein getakteter, flüchtiger Speicher bei dem die Taktung durch den Systembus vorgegeben wird.
+Was ist DDR-RAM?; DDR-RAM ist ein vom Systembus getakteter, flüchtiger Speicher bei dem Daten bei aufsteigender Flanke als auch bei absteigender Flanke übertragen werden.
+ie berechnet man die Kapazität eines Massenspeichers anhand der Anzahl der Sektoren und der Sektoren Größe?; Kapazität = Anzahl Sektoren ⋅ Sektor Größe
+Wozu wird GPT benötigt?; - Für die Nutzung von GUID\n- Für die Nutzung von Datenträger bzw. Partitionen mit mehr als 2 TiB\n- Für die Nutzung von bis zu 128 bootfähigen Partitionen
+Welche Windows Versionen sind mit UEFI kompatibel?; Desktop Windows Versionen ab Vista mit SP1 und Server Windows Versionen ab 2008.
+Aus welchen vier Funktionseinheiten besteht die Architektur des Von-Neumann-Rechners?; Rechenwerk, Steuerwerk, Speicherwerk, Ein-/Ausgabewerk
+Was ist der Chipsatz?; Der Chipsatz sind mehrere zusammengehörende integrierte Schaltkreise die zusammen anfallende Daten zwischen der CPU, dem Speicher, den verschiedenen Steckplätzen und den I/O-Schnittstellen verwaltet und koordiniert.
+Was ist ein Register?; Ein Register ist ein Speicherbereich für Daten, auf die Prozessoren besonders schnell zugreifen können.
+Welche Speichergröße haben Register?; Register haben meist die Größe einer Zweierpotenz, d.h. 8, 16, 32, 64, 128, 256 oder 512 Bit.
+Wieviele Register werden pro Kern verwendet?; Die Anzahl der Register pro Kern variiert von fünf bis mehrere hundert.
+Wieviel Speicherplatz hat üblicherweise der L1-Cache?; Der L1-Cache hat üblicherweise eine Speichergröße von wenigen hundert KB.
+Wieviel Speicherplatz hat üblicherweise der L2-Cache?; Der L2-Cache hat üblicherweise eine Speichergröße von wenigen MB.
+Wieviel Speichergröße hat üblichweise der L3-Cache?; Der L3-Cache hat üblicherweise eine Speichergröße von wenigen MB bis zu ca. 100 MB.
+Wieviel Speicherplatz hat üblicherweise ein Arbeitsspeicher?; Ein Arbeitsspeicher hat üblicherweise bis zu 32 GB Speicherplatz.
+Wieviel Speicherplatz hat üblicherweise eine HDD?; Eine HDD hat üblicherweise bis zu 16 TB oder mehr Speicherplatz.
+Wieviel Speicherplatz hat üblicherweise eine SSD?; Eine SSD hat üblicherweise bis zu 4 TB oder mehr Speicherplatz.
+Wie groß ist die Kapazität einer CD?; Eine CD hat genügend Kapazität für 650 MB Daten oder 74 Minuten Audio.
+Wie groß ist die Kapazität einer DVD?; Eine DVD hat genügend Kapazität für 4,7 GB (Single Layer) oder 8,5 GB (Dual Layer).
+Was sind die drei Grundbausteine der Datenträgerorganisation einer HDD?; Zylinder, Spuren, Sektoren
+Was sind Spuren einer HDD?; Spuren sind konzentrische Kreispfade auf jeder Scheibenseite. Jede Spur eerhält eine Nummer. Die Spur 0 liegt am äußeren Rand.
+Was sind Zylinder einer HDD?; Zylinder ist der Spurensatz, der auf allen Seiten der Platten im gleichen Abstand von der Mitte angelegt wird.
+Was sind Sektoren einer HDD?; Sektoren sind Ausschnitte der Spuren in denen eine bestimmte Menge an Daten gespeichert werden kann.
+Wie erfolgt das Lesen der Informationen bei einer HDD?; Das Lesen der Informationen erfolgt durch berührungsloses Abtasten der Magnetisierung der Plattenoberfläche.
+Welche zwei Sektorengrößen werden üblicherweise genutzt?; 512 Bytes, 4096 Bytes
+Angenommen man hat eine Datenträgerpartitionierung mit einer erweiterten Partition. Wieviele primäre Partitionen können maximal verwaltet werden?; Es können maximal drei primäre Partitionen verwaltet werden, wenn eine erweiterte Partition verwaltet wird.
+Welche Nachteile hat eine SSD gegenüber einer HDD?; Hoher PreisBegrenzte KapazitätKürzere Lebensdauer bei häufigen Schreibvorgängen
