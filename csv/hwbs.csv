@@ -195,7 +195,7 @@ Was ist SRAM?; SRAM ist ein flüchtiger Speicher, bei dem Daten solange gespeich
 Was ist DRAM?; DRAM ist ein flüchtiger Speicher, bei dem Daten solange gespeichert sind wie eine Betriebsspannung anliegt. Außerdem müssen die Daten periodisch augefrischt werden, damit sie nicht verloren gehen.
 Was ist SDRAM?; SDRAM ist ein getakteter, flüchtiger Speicher bei dem die Taktung durch den Systembus vorgegeben wird.
 Was ist DDR-RAM?; DDR-RAM ist ein vom Systembus getakteter, flüchtiger Speicher bei dem Daten bei aufsteigender Flanke als auch bei absteigender Flanke übertragen werden.
-ie berechnet man die Kapazität eines Massenspeichers anhand der Anzahl der Sektoren und der Sektoren Größe?; Kapazität = Anzahl Sektoren ⋅ Sektor Größe
+Wie berechnet man die Kapazität eines Massenspeichers anhand der Anzahl der Sektoren und der Sektoren Größe?; Kapazität = Anzahl Sektoren ⋅ Sektor Größe
 Wozu wird GPT benötigt?; - Für die Nutzung von GUID\n- Für die Nutzung von Datenträger bzw. Partitionen mit mehr als 2 TiB\n- Für die Nutzung von bis zu 128 bootfähigen Partitionen
 Welche Windows Versionen sind mit UEFI kompatibel?; Desktop Windows Versionen ab Vista mit SP1 und Server Windows Versionen ab 2008.
 Aus welchen vier Funktionseinheiten besteht die Architektur des Von-Neumann-Rechners?; Rechenwerk, Steuerwerk, Speicherwerk, Ein-/Ausgabewerk
