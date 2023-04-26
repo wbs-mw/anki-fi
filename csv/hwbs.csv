@@ -78,21 +78,21 @@ Was ist 0xD0 umgewandelt ins Dezimalsystem?; 208
 Was ist 0xE0 umgewandelt ins Dezimalsystem?; 224
 Was ist 0xF0 umgewandelt ins Dezimalsystem?; 240
 Was ist 0xFF umgewandelt ins Dezimalsystem?; 255
-$1; Was ist 0b0001 umgewandelt ins Hexadezimalsystem?; 0x1
-$1; Was ist 0b0010 umgewandelt ins Hexadezimalsystem?; 0x2
-$1; Was ist 0b0011 umgewandelt ins Hexadezimalsystem?; 0x3
-$1; Was ist 0b0100 umgewandelt ins Hexadezimalsystem?; 0x4
-$1; Was ist 0b0101 umgewandelt ins Hexadezimalsystem?; 0x5
-$1; Was ist 0b0110 umgewandelt ins Hexadezimalsystem?; 0x6
-$1; Was ist 0b0111 umgewandelt ins Hexadezimalsystem?; 0x7
-$1; Was ist 0b1000 umgewandelt ins Hexadezimalsystem?; 0x8
-$1; Was ist 0b1001 umgewandelt ins Hexadezimalsystem?; 0x9
-$1; Was ist 0b1010 umgewandelt ins Hexadezimalsystem?; 0xA
-$1; Was ist 0b1011 umgewandelt ins Hexadezimalsystem?; 0xB
-$1; Was ist 0b1100 umgewandelt ins Hexadezimalsystem?; 0xC
-$1; Was ist 0b1101 umgewandelt ins Hexadezimalsystem?; 0xD
-$1; Was ist 0b1110 umgewandelt ins Hexadezimalsystem?; 0xE
-$1; Was ist 0b1111 umgewandelt ins Hexadezimalsystem?; 0xF
+Was ist 0b0001 umgewandelt ins Hexadezimalsystem?; 0x1
+Was ist 0b0010 umgewandelt ins Hexadezimalsystem?; 0x2
+Was ist 0b0011 umgewandelt ins Hexadezimalsystem?; 0x3
+Was ist 0b0100 umgewandelt ins Hexadezimalsystem?; 0x4
+Was ist 0b0101 umgewandelt ins Hexadezimalsystem?; 0x5
+Was ist 0b0110 umgewandelt ins Hexadezimalsystem?; 0x6
+Was ist 0b0111 umgewandelt ins Hexadezimalsystem?; 0x7
+Was ist 0b1000 umgewandelt ins Hexadezimalsystem?; 0x8
+Was ist 0b1001 umgewandelt ins Hexadezimalsystem?; 0x9
+Was ist 0b1010 umgewandelt ins Hexadezimalsystem?; 0xA
+Was ist 0b1011 umgewandelt ins Hexadezimalsystem?; 0xB
+Was ist 0b1100 umgewandelt ins Hexadezimalsystem?; 0xC
+Was ist 0b1101 umgewandelt ins Hexadezimalsystem?; 0xD
+Was ist 0b1110 umgewandelt ins Hexadezimalsystem?; 0xE
+Was ist 0b1111 umgewandelt ins Hexadezimalsystem?; 0xF
 Was ist 22?; 4
 Was ist 24?; 16
 Was ist 28?; 256
