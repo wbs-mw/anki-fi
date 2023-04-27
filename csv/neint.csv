@@ -313,3 +313,54 @@ Auf welcher Schicht des TCP/IP-Referenzmodells findet die Trennung der VLANs sta
 Wieviele VLAN Netze werden gleichtzeitig unterstützt?; 4.096
 Anhand was kann man die maximale VLAN Anzahl erkennen?; VID Feld Länge im Tag
 Wieviele Bits hat das VID Feld im Tag?; 12 Bits
+Wie heißt die erste Schicht des TCP/IP Protokollstapels?; Netzzugang
+Wie heißt die zweite Schicht des TCP/IP Protokollstapels?; Internet
+Wie heißt die dritte Schicht des TCP/IP Protokollstapels?; Transport
+Wie heißt die vierte Schicht des TCP/IP Protokollstapels?; Anwendung
+Welche Einheit wird auf der Netzzugangsschicht des TCP/IP Protokollstapels benutzt?; Rahmen und Bits
+Welche Einheit wird auf der Internetschicht des TCP/IP Protokollstapels benutzt?; Pakete
+Welche Einheit wird auf der Transportschicht des TCP/IP Protokollstapels benutzt?; Segmente
+Welche Einheit wird auf der Anwendungsschicht des TCP/IP Protokollstapels benutzt?; Daten
+HTTP ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+FTP ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+SMTP ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+POP3 ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+IMAP ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+SSH ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+Telnet ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+DNS ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+NTP ist ein Protokoll welcher TCP/IP Schicht?; Anwendung (4)
+TCP ist ein Protokoll welcher TCP/IP Schicht?; Transport (3)
+UDP ist ein Protokoll welcher TCP/IP Schicht?; Transport (3)
+ICMP ist ein Protokoll welcher TCP/IP Schicht?; Internet (2)
+IPv4 ist ein Protokoll welcher TCP/IP Schicht?; Internet (2)
+IPv6 ist ein Protokoll welcher TCP/IP Schicht?; Internet (2)
+ARP ist ein Protokoll welcher TCP/IP Schicht?; Internet (2)
+QoS ist die Abkürzung des Begriffs?; Quality of Service
+ToS ist die Abkürzung des Begriffs?; Type of Service
+Was ist Latenzzeit?; Latenzzeit ist die Verzögerung der Ende-zu-Ende Übertragung
+Was ist Jitter?; Jitter ist die Abweichung der Latenzzeit von ihrem Mittelwert
+Was sind Paketverlustrate?; Paketverlustrate ist die Wahrscheinlichkeit, dass einzelne IP-Pakete bei der Übertragung verloren gehen (oder -bei Echtzeitdiensten- ihr Ziel zu spät erreichen)
+Was ist Durchsatz?; Durchsatz ist die pro Zeiteinheit im Mittel übertragene Datenmenge
+Was ist Unicast?; Unicast ist die gezielte Kommunikation zwischen zwei definierten Punkten
+Was ist Broadcast?; Broadcast die "Rundsendung" ohne definierte Zieladresse
+Was ist Multicast?; Multicast die das Senden an eine vorher definierte Multicastgruppe
+Was ist Anycast?; Anycast spricht eine ganze Gruppe von Rechnern an. Derjenige Rechner, welcher am schnellsten erreichbar ist, also über die kürzeste Route aus Sicht des Senders verfügt, antworte.
+IANA ist die Abkürzung des Begriffs?; Internet Assigned Numbers Authority
+Was ist IANA?; IANA ist eine Organisation, die die Vergabe von IP-Adressen und IP-Protokollnummern, sowie die Zuordnung der Haupt-Ports 0 bis 1023 regelt.
+Eine IPv6 Adresse hat wie viele Bits?; 128
+Eine IPv6 Adresse hat wie viele Bytes?; 16
+TLA Superprovider ist die Abkürzung des Begriffs?; Top Level Aggregation Superprover
+NLA Provider ist die Abkürzung des Begriffs?; Next Level Aggregation Provider
+SLA Organisation ist die Abkürzung des Begriffs?; Site Level Aggregation Organisation
+Was ist TLA Superprovider?; TLA Superprovider sind große Internet Service Provider mit Transitnetzen, an denen andere ISPs angeschlossen sind
+Was ist das Interface?; lokaler Adressraum
+Wie viele Bits einer IPv6-Adresse sind die Schnittstellenkennung (Interface ID)?; Die letzten 64 Bits
+Welche Verwendung hat der IPv6 Präfix 0000 0000?; Reserviert und IPv4
+Welche Verwendung hat der IPv6 Präfix 0000 0010?; OSI-NSAP-Adressen (Network Service Access Point)
+Welche Verwendung hat der IPv6 Präfix 0000 010?; Netware IPX-Adressen (Internetwork Packet eXchange, Novell)
+Welche Verwendung hat der IPv6 Präfix 001?; Global aggregierte Adressen -> 2000::/3
+Welche Verwendung hat der IPv6 Präfix 100?; Adressen für geographische Bereiche
+Welche Verwendung hat der IPv6 Präfix 1111 1110 10?; Verbindungsspezifische lokale Adressen -> FE80:0/10
+Welche Verwendung hat der IPv6 Präfix 1111 1110 11?; Standortspezifische lokale Adressen -> FEC0::0/10
+Welche Verwendung hat der IPv6 Präfix 1111 1111?; Multicast -> FF00::/8 
