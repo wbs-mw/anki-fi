@@ -93,13 +93,13 @@ Was ist 0b1100 umgewandelt ins Hexadezimalsystem?; 0xC
 Was ist 0b1101 umgewandelt ins Hexadezimalsystem?; 0xD
 Was ist 0b1110 umgewandelt ins Hexadezimalsystem?; 0xE
 Was ist 0b1111 umgewandelt ins Hexadezimalsystem?; 0xF
-Was ist 22?; 4
-Was ist 24?; 16
-Was ist 28?; 256
-Was ist 216?; 65.536
-Was ist 224?; 16.777.216
-Was ist 232?; 4.294.967.296
-Was ist 264?; 18.446.774.073.709.551.616
+Was ist 2^2?; 4
+Was ist 2^4?; 16
+Was ist 2^8?; 256
+Was ist 2^16?; 65.536
+Was ist 2^24?; 16.777.216
+Was ist 2^32?; 4.294.967.296
+Was ist 2^64?; 18.446.774.073.709.551.616
 Was ist Partitionierung?; Partitionieren ist das Aufteilen eines Datenträgers in einzelne, voneinander unabhängige Speicherbereiche.
 MBR ist die Abkürzung des Begriffs?; Master Boot Record
 GPT ist die Abkürzung des Begriffs?; GUID Partition Table
