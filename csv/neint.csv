@@ -2,7 +2,7 @@ OSI ist die Abkürzung des Begriffs?; Open System Interconnection
 Was ist OSI?; OSI ist ein Referenzmodell für herstellerunabhängige Kommunikationssysteme.
 Was ist die Bitübertragungsschicht des OSI-Modells? (engl.: Physical layer); Die Bitübertragung ist zuständig für den physikalischen Transport der digitalen Informationen.
 Was ist die Datensicherungschicht des OSI-Modells? (engl.: Link layer); Die Datensicherung ist zuständig für den unverfälschten Datentransport über einen einzelnen Übermittlungsabschnitt.
-Was ist die Vermittlungsschict des OSI-Modells? (engl.: Network layer); Die Vermittlung ist zuständig für die Überbrückung geografischer Entfernungen zwischen den Endsystemen durch Einbeziehung von Vermittlungssystemen.
+Was ist die Vermittlungsschicht des OSI-Modells? (engl.: Network layer); Die Vermittlung ist zuständig für die Überbrückung geografischer Entfernungen zwischen den Endsystemen durch Einbeziehung von Vermittlungssystemen.
 Was ist die Transportschicht des OSI-Modells? (engl.: Transport layer); Der Transport ist zuständig für die Erweiterung von Verbindungen zwischen Endsystemen zu Teilnehmerverbindungen.
 Was ist die Sitzungsschicht des OSI-Modells? (engl.: Session layer); Die Sitzung ist zuständig für den geordneten Ablauf des Dialogs zwischen den Endsystemen.
 Was ist die Darstellungsschicht des OSI-Modells? (engl.: Session layer); Die Darstellung ist zuständig für den gemeinsamen Zeichensatz und die gemeinsame Syntax.
@@ -83,14 +83,14 @@ Was ist CIDR?; CIDR ist ein Verfahren zur effizienteren Nutzung des Addressraums
 Was ist Fragmentierung?; Die Fragmentierung ist eine IPv4 Funktion, die Daten, welche größer als erlaubt sind, in Fragmente aufteilt.
 Was ist logische Adressierung?; Die logische Adressierung ist eine IPv4 Funktion, die Netzteilnehmern mittels einmalig zugeteilten Adresse, die Kommunikation ermöglicht.
 MTU ist die Abkürzung des Begriffs?; Maximum Transmission Unit
-Was ist MTU?; MTU ist die größtmöglichste Länge der IPv5 Fragmente.
+Was ist MTU?; MTU ist die größtmöglichste Länge der IP Fragmente.
 Was ist Routing?; Das Routing ist eine IPv4 Funktion, die entscheidet über welchen Weg zum Zielnetz ein Datenpaket übertrage wird.
 Was ist Subnetting?; Subnetting ist das Unterteilen eines Netzes in mehrere Unternetze, die alle im selben zusammenhägneden Adressraum bleiben.
 Was ist Supernetting?; Supernetting ist die Zusammenfassung mehrerer Adressen in eine einzige Netzwerkkennung.
 VLSM ist die Abkürzung des Begriffs?; Variable Length of Subnet Mask
 Was ist VLSM?; VLSM ist eine Subnetzmaske mit variabler Länge, welche die Möglichkeit bietet Subnetze mit unterschiedlicher Größe zu erstellen.
 Auf welcher Schicht des OSI-Referenzmodells befindet sich IPv4?; Vermittlung / Network
-Auf welcher SChicht des TCP/IP-Referenzmodells befindet sich IPv4?; Internet
+Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich IPv4?; Internet
 Was ist die größtmögliche Länge eines IPv4 Fragments?; 1.500 Bytes
 Worauf hat die IPv4 Fragmentierung einen negativen Einfluss?; Datendurchsatz
 Wodurch kann der Sender die IPv4 Fragmentierung verhindern?; Mit der Don't-Fragment Flag
@@ -121,7 +121,7 @@ Welche IPv4 Adresse hat die Netz-ID?; Erste Adresse eines Netzwerks
 Welche IPv4 Adresse hat der lokale Broadcast?; Letzte Adresse eines Netzwerks
 Welche IPv4 Adresse hat ein privates Netzwerk der Klasse A?; 10.0.0.0/8
 Welche IPv4 Adresse hat ein privates Netzwerk der Klasse B?; 172.16.0.0/16
-Welche IPv4 Adresse hat ein privates Netzwerk der Klases C?; 192.168.0.0/24
+Welche IPv4 Adresse hat ein privates Netzwerk der Klasse C?; 192.168.0.0/24
 Welche Größe hat eine IPv4 Subnetzmaske?; 32 Bits
 Aus welchen zwei Anteilen besteht eine IPv4 Subnetzmaske?; Netzanteil und Hostanteil
 NDP ist die Abkürzung des Begriffs?; Neighbour Discovery Protocol
@@ -229,7 +229,7 @@ Bei welchem IPv4 Verfahren wird der Multicast-Datenverkehr überwacht?; IGMP-Sno
 Bei welchem IPV4 Verfahren wird der Beitritt und Verlass einer Multicast-Gruppe erkannt?; IGMP-Snooping
 Bei welchem IPV4 Verfahren wird eine Adresstabelle der Empfänger einer Multicast-Gruppe geführt?; IGMP-Snooping
 Wieviele Felder beinhalten IGMP-Nachrichten?; 4
-Welche Felder beinhalten IGMP-Nachrichten?; Typ, Response Time, Checksum, Multicast-IP-Address
+Welche Felder beinhalten IGMP-Nachrichten?; Type, Response Time, Checksum, Multicast-IP-Address
 TCP ist die Abkürzung des Begriffs?; Transmission Control Protocol
 Was ist TCP?; TCP ist ein verbindungsorientiertes Protokoll.
 Auf welcher Schicht des OSI-Referenzmodells befindet sich TCP?; Transport
@@ -243,7 +243,7 @@ Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich UDP?; Transport
 Was stellt bei UDP den Empfang sicher?; Anwendungsprotokolle
 Was ist ein Port?; Ein Port ist ein Prozess, der seine Daten an die darunterliegenden Schicht übergibt bzw. von dieser erhält.
 Wieviele Ports gibt es?; 65.536
-Wieviele Bits kennzeichnen einen Port?; 16 Bitübertragungsschicht
+Wieviele Bits kennzeichnen einen Port?; 16 Bits
 In welchen Zuständen können Ports sich befinden?; Offen, Geschlossen, Gefiltert
 Welche Ports sind Well Known Ports?; 0 - 1.023
 Welche Ports sind Registered Ports?; 1.024 - 49.151
@@ -344,7 +344,7 @@ Was sind Paketverlustrate?; Paketverlustrate ist die Wahrscheinlichkeit, dass ei
 Was ist Durchsatz?; Durchsatz ist die pro Zeiteinheit im Mittel übertragene Datenmenge
 Was ist Unicast?; Unicast ist die gezielte Kommunikation zwischen zwei definierten Punkten
 Was ist Broadcast?; Broadcast die "Rundsendung" ohne definierte Zieladresse
-Was ist Multicast?; Multicast die das Senden an eine vorher definierte Multicastgruppe
+Was ist Multicast?; Multicast ist das Senden an eine vorher definierte Multicastgruppe
 Was ist Anycast?; Anycast spricht eine ganze Gruppe von Rechnern an. Derjenige Rechner, welcher am schnellsten erreichbar ist, also über die kürzeste Route aus Sicht des Senders verfügt, antworte.
 IANA ist die Abkürzung des Begriffs?; Internet Assigned Numbers Authority
 Was ist IANA?; IANA ist eine Organisation, die die Vergabe von IP-Adressen und IP-Protokollnummern, sowie die Zuordnung der Haupt-Ports 0 bis 1023 regelt.
