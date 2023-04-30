@@ -150,10 +150,10 @@ Auf welcher Schicht des TCP/IP-Referenzmodells befindet sich IPv6?; Internet
 Was ist ein Router?; Ein Router ist ein System, das zum Verbinden von Netzwerken auf Grundlage eines Protokolls verwendet wird.
 Was ist ein Hardwarerouter?; Der Hardwarerouter ist ein dediziertes Gerät, welches hard- und softwaremäßig für die Weiterleitung von Paketen optimiert ist und ausschließlich dem Routing dient.
 Was ist ein Softwarerouter?; Der Softwarerouter ist in der Regel ein Gerät welches Routing als zusätzlichen Prozess ausführt.
-Was ist Routing-Tabelle?; Eine Routing-Tabelle ist eine Anzahl von Einträgen, die beschreiben über welchen Router welche Netzwerkkennung erreichbar ist.
+Was ist eine Routing-Tabelle?; Eine Routing-Tabelle ist eine Anzahl von Einträgen, die beschreiben über welchen Router welche Netzwerkkennung erreichbar ist.
 Was ist eine Netzwerkroute?; Eine Netzwerkroute ist ein Pfad zu einer bestimmten Netzwerkkennung.
 Hostroute; Eine Hostroute ist ein Pfad zu einer Netzwerkadresse.
-Standardroute; Eine Standardroute ist ein Pfad, welcher verwendet wird, wenn in der Routing-Tabelle keine anderen Routen gefunden werden.
+Was ist eine Standardroute?; Eine Standardroute ist ein Pfad, welcher verwendet wird, wenn in der Routing-Tabelle keine anderen Routen gefunden werden.
 Open Shortest Path First; OSPF ist ein auf einem hierarchischem Link-State-Protokoll beruhendes Routingprotokoll.
 OSPF ist die Abkürzung des Begriffs?; Open Shortest Path First
 RIP ist die Abkürzung des Begriffs?; Routing Information Protocol
@@ -265,7 +265,7 @@ Was ist DHCP?; DHCP ist ein Protokoll bei dem IP-Adressen und andere Konfigurati
 Welches Transportprotokoll verwendet DHCP?; UDP
 Welche Ports verwendet DHCP?; 67, 68
 Innerhalb welcher Domäne müssen sich DHCP-Server und Client befinden?; Broadcast-Domäne
-Welche vier Schritten beschreiben DORA?; 1. Discover 2. Offer 3. Request 4. Acknowledge
+Welche vier Schritte beschreiben DORA?; 1. Discover 2. Offer 3. Request 4. Acknowledge
 Was macht ein DHCP-Client im Discover Schritt des DORA Prinzips?; Verschickt ein UDP-Paket mit der Ziel-Adresse 255.255.255.255 und der Quell-Adresse 0.0.0.0
 VLAN ist die Abkürzung des Begriffs?; Virtual Local Area Network
 Was ist VLAN?; VLAN ist ein virtuelles Netzwerk innerhalb eines tatsächlichen Netzwerkes.
@@ -274,7 +274,7 @@ TPID ist die Abkürzung des Begriffs?; Tag Protocol ID
 PCP ist die Abkürzung des Begriffs?; Priority Code Point
 CFI ist die Abkürzung des Begriffs?; Canonical Format Indicator
 VID ist die Abkürzung des Begriffs?; VLAN ID
-Was ist VLAN-Pruning?; VLAN-Pruning ist eine Funktion, die dafür sorgt, dass Broadcasts fpr Broadcast-Domänen nicht an Switches weitergeleitet werden.
+Was ist VLAN-Pruning?; VLAN-Pruning ist eine Funktion, die dafür sorgt, dass Broadcasts für Broadcast-Domänen nicht an Switches weitergeleitet werden.
 Wo werden VLANs eingerichtet?; Switches
 Warum wird der Broadcast-Verkehr bei der Bildung von VLANs reduziert?; Verkleinerung der Broadcast-Domänen
 Welchen Effekt hat die Verkleinerung der Broadcast-Domänen durch die Bildung von VLANs?; Reduzierung des Broadcast-Verkehrs

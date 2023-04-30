@@ -111,7 +111,7 @@ Wieviele Partitionen kann eine MBR Partitionierung verwalten?; Eine MBR Partitio
 Wieviele erweiterte Partitionen kann eine MBR Partitionierung verwalten?; Eine MBR Partitionierung kann eine erweiterte Partition verwalten.
 Wieviele bootfähige Partitionen kann eine MBR Partitionierung verwalten?; Eine MBR Partitionierung kann bis zu vier bootfähige Partitionen verwalten.
 In wieviele logische Partitionen kann eine erweiterte Partition bei einer MBR Partitionierung unterteilt werden?; Eine erweiterte Partition bei einer MBR Partitionierung kann in unendlich viele logische Partitionen unterteilt werden.
-Wieviele Datenträger können maximal unter Windows gleichzeitig laufen?; 24
+Wieviele Datenträger können maximal unter Windows gleichzeitig laufen?; Bei alten Versionen von Windows 26, bei neueren Versionen gibt es keine Begrenzung.
 Was ist BUS?; Ein BUS ist ein System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg.
 Was ist eine Unicast-Verbindung?; Die Unicast-Verbindung ist eine Kommunikationsform in der eine Nachricht von einem Sender an einen einzigen Empfänger gesendet wird.
 Was ist eine Broadcast-Verbindung?; Die Broadcast-Verbindung ist eine Kommunikationsform in der eine Nachricht von einem Sender an alle Teilnehmer gesendet wird.
@@ -121,12 +121,12 @@ Aus welchen Bussen besteht häufig der Systembus?; Datenbus, Adressbus, Steuerbu
 Was ist der Datenbus?; Der Datenbus ist ein System welches die bidirektionale parallele Datenübertragung zwischen der CPU, den Hardware-Komponenten, Speicher und Peripheriegeräten ermöglicht.
 Was ist der Adressbus?; Der Adressbus ist eine System, welches die unidirektionale Übertragung von Speicheradressen ermöglicht.
 Was ist der Steuerbus?; Der Steuerbus ist ein System, welches die bidirektionale Steuerung des Bussystems ermöglicht.
-Welche Signale werden vom Steuerbus verarbeitet?; Lesen aus dem RAMSchreiben in das RAMEingabe von peripheren GerätenAusgabe an peripheren GerätenInterruptsignale
+Welche Signale werden vom Steuerbus verarbeitet?; Lesen aus dem RAM, Schreiben in das RAM, Eingabe von peripheren Geräten, Ausgabe an peripheren Geräten, Interruptsignale
 Wovon hängt die Datenbus-Breite ab?; Die Datenbus-Breite hängt von der Datenwortbreite der CPU ab (8, 16, 32 oder 64 Bit).
 Was legt fest wieviel Speicher direkt adressiert werden können?; Die Busbreite legt fest, wieviel Speicher direkt adressiert werden können.
 Was ist der Arbiter?; Der Arbiter ist eine Schaltung, die entscheidet, welcher von den Eingängen zuerst aktiv über den Bus wird.
 BREQ ist die Abkürzung des Begriffs?; Bus Request
-BGRT ist die Abkürzung des Begriffs?; Bus Generation
+BGRT ist die Abkürzung des Begriffs?; Bus Grant
 BGA ist die Abkürzung des Begriffs?; Bus Grant Acknowledge
 Was ist CISC?; CISC ist eine Designphilosophie für Prozessoren und steht für einen umfangreichen Befelssatz.
 Was ist RISC?; RISC ist eine Designphilosophie für Prozessoren und steht für einen reduzierten Befehlssatz.
